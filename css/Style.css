@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+.Header{
+    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 47%;
+    height: 100vh;
+    position: relative;
+}
+.contenedorLogo{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    padding: 0;
+    margin-left: 26px;
+    margin-top: 6px;
+}
+.Logo{
+    height: 24vh;
+    display: inline-block;
+}
+.cajNav{
+    display: inline-block;
+    text-align: right;
+    width: 85%;
+    position: absolute;
+    margin-top: 117px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 1.8%;
+    text-decoration: none;
+    padding-right: 2.8%;
+    font-size: 1.3rem; 
+    background-color: #046b8b93;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.5% 30% / 100%
+}
+.linkNav{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin: 1%;
+    padding-left: 8px;
+}
+.link{
+    color: rgb(248, 174, 38);
+}
+.section{
+    text-align: center;
+    margin-top: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 85%;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 4% 60% / 210%
+}
+.section .title{
+    font-size: 3.5rem;
+    padding-top: 2vh;
+}
+.section .p{
+    font-size: 1.7rem;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    color: rgb(248, 174, 38);
+}
+.section .viajar{
+    padding-top: 12vh;
+    font-size: 2.3rem;
+}
+.main{
+    background-color: rgba(218, 218, 218, 0.479);
+}
+.vista{
+    padding-top: 3%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    gap: 38px;
+}
+.card{
+    text-align: center;
+    width: 26%;
+    background-color: white;
+    border: 1.5px solid black;
+    padding: 1.2%;
+}
+.card .img{
+    width: 100%;
+    height: 28vh;
+    object-fit: cover;
+}
+.secMaps{
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(218, 218, 218, 0.479);
+}
+.secMaps .titleMaps{
+    padding-top: 2.5vh;
+    padding-bottom: 1vh;
+    font-size: 1.8rem;
+    margin-top: 4px;
+    background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+    color: azure;
+}
+.cajMaps{
+    height: 80%;
+    padding-bottom: 4.8%;
+    padding-top: 1%;
+}
+.maps{
+    width: 56vh;
+    height: 32vh;
+    margin-top: 2vh;
+}
+.footer{
+    list-style: none;
+    background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    height: 25vh;
+}
+.footer .cajaLogo{
+    display: inline-block;
+    width: 8%;
+    height: 64%;
+    margin-left: 46%;
+    text-align: center;
+    padding-top: 0;
+}
+.footerLogo{
+    height: 18vh;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.footer .logoMaps{
+    color: azure;
+    padding-top: 0;
+}
+.linkFooter{
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    margin-top: 5vh;
+    margin-right: 1.5vh;
+    margin-left: 41.8%;
+    width: fit-content;
+    text-align: center;
+}
+.linkFooter .Icon{
+    margin: 0.4vh;
+    padding-bottom: 2vh;
+    color: rgb(248, 174, 38);
+}
+.footer .copyright{
+    text-align: center;
+    margin-top: 1.2vh;
+}
+.footer .copyright .title6{
+    font-size: 0.8rem;
+    color: rgb(248, 174, 38);
+}
+/*Pages info*/
+.HeaderInfo{
+    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 47%;
+    height: 64vh;
+    position: relative;
+}
+.HeaderInfo .contenedorLogo{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    padding: 0;
+    margin-left: 26px;
+    margin-top: 6px;
+}
+.HeaderInfo .Logo{
+    height: 24vh;
+    display: inline-block;
+}
+.HeaderInfo .cajNav{
+    display: inline-block;
+    text-align: right;
+    width: 85%;
+    position: absolute;
+    margin-top: 117px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 1.8%;
+    text-decoration: none;
+    padding-right: 2.8%;
+    font-size: 1.3rem; 
+    background-color: #046b8b93;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.5% 30% / 100%
+}
+.HeaderInfo .linkNav{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    margin: 1%;
+    padding-left: 8px;
+}
+.HeaderInfo .link{
+    color: rgb(248, 174, 38);
+}
+.HeaderInfo .title{
+    text-align: center;
+    font-size: 3.8rem;
+    padding-top: 10vh;
+}
+.infoMain{
+    text-align: center;
+}
+.infomain .title{
+    font-size: 3rem;
+    margin-top: 4vh;
+}
+.infoMain .infoLagos{
+    text-align: center;
+}
+.infoMain .video1{
+    height: 24vh;
+    display: inline-block;
+}
+.infoLagos .p1{
+    display: inline-block;
+}
+/*Page Contacto*/
+.mainContacto{
+    text-align: center; 
+    background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+}
+.mainContacto .contentT{ 
+    text-align: center;
+    height: 50vh;
+    width: 38%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    margin-left: 31%;
+}
+.mainContacto .contentT .title{
+    font-size: 1.6rem;
+    padding-top: 2.4%;
+    padding-bottom: 1%;
+}
+.mainContacto .contentT .p{
+    padding-bottom: 4.4%;
+    color: azure;
+}
+.mainContacto .contentT .caja1{
+    display: inline-block;
+    width: 27.8%;
+}
+.mainContacto .contentT .caja2{
+    display: inline-block;
+    width: 27.8%;
+}
+.mainContacto .contentT .cj{
+    width: 100%;
+}
+.mainContacto .contentT .caja3{
+    margin: 3px;
+    margin-bottom: 10px;
+}
+.mainContacto .contentT .caja3 .mail{
+    width: 56.8%;
+}
+.mainContacto .contentT .caja5{
+    margin-top: 0.8%;
+    font-size: 1.2rem;
+}
