@@ -12,46 +12,51 @@
     background-repeat: no-repeat;
     background-position-y: 47%;
     height: 100vh;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
 }
 .contenedorMenu{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    background-color: darkgoldenrod;
 }
-.contenedorMenu .contenedorLogo{
-    margin-top: 0;
-    margin-left: 1.5%;
+.Header .contenedorLogo{
+    margin-left: 1.6%;
 }
-.contenedorMenu .contenedorLogo .Logo{
-    height: 26vh;
+.Header .contenedorLogo .logo{
+    height: 28vh;
 }
-.contenedorMenu .cajNav{  
-    width: 85%;
+.Header .cajNav{  
     background-color: #046b8b93;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0.5% 30% / 100%;
     margin-left: 2.2%;
-    margin-top: 2.6%;
-}
-.contenedorMenu .cajNav .linkNav{
+    margin-top: 3.9%;
+    padding-right: 9.5%;
+}  
+.Header .cajNav .linkNav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
-    padding: 1.4%;
-    margin-right: 6%;
+    padding-left: 5vh;
+    
 }
-.linkItem{
+.Header .cajNav .linkItem{
     color: rgb(0, 0, 0);
     padding-left: 3.2%; 
 }
-.link{
+.Header .cajNav .linkNav .link{
     color: rgb(248, 174, 38);
-    padding-left: 4%;
+    padding-left: 3.5%;
     font-size: 1.4rem;
     text-decoration: none;
+}
+.cajNav .linkNav .link:hover{
+    color: rgb(250, 211, 83);
 }
 .section{
     text-align: center;
@@ -68,10 +73,12 @@
 .section .title{
     font-size: 3.5rem;
     padding-top: 2vh;
+    font-weight: 600;
+    color: black;
 }
 .section .p{
     font-size: 1.7rem;
-    margin-top: 10vh;
+    margin-top: 7.5vh;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -79,55 +86,68 @@
     color: rgb(248, 174, 38);
 }
 .section .viajar{
-    padding-top: 12vh;
+    padding-top: 4.2vh;
     font-size: 2.3rem;
+    color: black;
 }
 .main{
-    background-color: rgba(218, 218, 218, 0.479);
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
 }
-.vista{
-    padding-top: 3%;
-    padding-bottom: 6%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    gap: 38px;
+.main .card-group{
+    padding-bottom: 4%;
 }
 .card{
     text-align: center;
-    width: 26%;
-    background-color: white;
-    border: 1.5px solid black;
-    padding: 1.2%;
+    border: 1.2px solid black;
+    padding: 0.8%;
+    width: 44vh !important;
+    height: 39.5vh;
+    object-fit: cover;
+    background-color: rgba(168, 153, 126, 0.13);
 }
-.card .img{
+.main .card .img{
     width: 100%;
     height: 28vh;
     object-fit: cover;
+    padding-bottom: 0.2vh;
+}
+.card-group .card .card-body .titleTarjeta{
+    font-weight: 400;
+    color: black;
+    font-size: 1.6rem;
+    font-style: oblique;
+    text-decoration: underline;
+}
+.card .card-body .titleTarjeta:hover{
+    color: rgb(209, 127, 3);
+    font-size: 1.8rem;
+    transition: 0.5s;
 }
 .secMaps{
-    text-align: center;
-    flex-direction: column;
-    background-color: rgba(218, 218, 218, 0.479);
+    height: 48vh;
 }
 .secMaps .titleMaps{
     padding-top: 2.5vh;
-    padding-bottom: 1vh;
+    padding-bottom: 0.8vh;
+    padding-left: 1%;
     font-size: 1.8rem;
     margin-top: 4px;
     background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
     color: azure;
 }
-.cajMaps{
-    height: 80%;
-    padding-bottom: 4.8%;
-    padding-top: 1%;
+.caja{
+    height: 100%;
 }
 .maps{
-    width: 56vh;
-    height: 32vh;
-    margin-top: 2vh;
+    width: 50%;
+}
+@media (max-width:768) {
+    .maps{
+        width:90%;
+        height: 56%;
+        min-width:0;
+    }
 }
 .footer{
     list-style: none;
@@ -136,7 +156,43 @@
     background-repeat: no-repeat;
     background-position: bottom ;
     height: 25vh;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
 }
+.cajaLogo{
+    margin: auto;
+}
+.copyright{
+    padding-left: 10%;
+}
+.footerLogo{
+    height: 18vh;
+    margin-top: 1vh;
+}
+.footer .logoMaps{
+    color: azure;
+}
+.footer .copyright .title6{
+    font-size: 0.8rem;
+    color: rgb(248, 174, 38);
+}
+.linkFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-top: 3.5vh;
+    padding-right: 2vh;
+}
+.linkFooter .linkRedes .Icon{
+    color: rgb(248, 174, 38);
+}
+.footer .linkFooter .linkRedes .Icon:hover{
+    color: none;
+}
+
+
+/*
 .footer .cajaLogo{
     display: inline-block;
     width: 8%;
@@ -178,7 +234,7 @@
 .footer .copyright .title6{
     font-size: 0.8rem;
     color: rgb(248, 174, 38);
-}
+}*/
 /*Pages info*/
 .HeaderInfo{
     background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
