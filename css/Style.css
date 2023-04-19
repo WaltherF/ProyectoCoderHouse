@@ -14,13 +14,7 @@
     height: 100vh;
     font-family: 'inter', sans-serif;
     font-weight: 400;
-}
-.contenedorMenu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: darkgoldenrod;
+    padding: 0;
 }
 .Header .contenedorLogo{
     margin-left: 1.6%;
@@ -28,15 +22,10 @@
 .Header .contenedorLogo .logo{
     height: 28vh;
 }
-.Header .cajNav{  
-    background-color: #046b8b93;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 0.5% 30% / 100%;
-    margin-left: 2.2%;
-    margin-top: 3.9%;
-    padding-right: 9.5%;
-}  
+.listNav{
+    width: 80%;
+    margin-left: 2%;
+}
 .Header .cajNav .linkNav{
     display: flex;
     flex-direction: row;
@@ -58,44 +47,99 @@
 .cajNav .linkNav .link:hover{
     color: rgb(250, 211, 83);
 }
-.section{
-    text-align: center;
-    margin-top: 145px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50%;
-    width: 85%;
-    background-color: #ffffff10;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4% 60% / 210%
-}
 .section .title{
-    font-size: 3.5rem;
-    padding-top: 2vh;
+    font-size: 3rem;
+    padding-top: 2.5vh;
     font-weight: 600;
     color: black;
+    font-style: oblique;
 }
 .section .p{
     font-size: 1.7rem;
-    margin-top: 7.5vh;
+    margin-top: 11vh;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 91%;
     text-align: center;
     color: rgb(248, 174, 38);
 }
 .section .viajar{
-    padding-top: 4.2vh;
-    font-size: 2.3rem;
+    padding-top: 5vh;
+    font-size: 2.4rem;
     color: black;
+    font-style: oblique;
+}
+@media screen and (max-width:768px) {
+    .header{
+        background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 80%;
+        height: auto;
+    }
+    .Header .contenedorLogo{
+        margin-top: 1.5vh;
+    }
+    .Header .contenedorLogo .logo{
+        height: 16vh;
+        padding-left: 1vh;
+    }
+    .Header .cajNav{
+        margin-left: 2.2%;
+        margin-top: 3.9%;
+        padding-right: 9.5%;
+    }
+    .Header .section{
+        text-align: center;
+        margin-top: 7vh;
+        width: 100%;
+    }
+    .Header .section .title{
+        font-size: 2.2rem;
+        font-weight: 600;
+    }
+    .Header .section .p{
+        font-size: 1.4rem;
+        padding-top: 7vh;
+    }
+    .Header .section .viajar{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }    
+}
+@media screen and (min-width:769px) {
+    .Header .section{
+        text-align: center;
+        margin-top: 135px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50%;
+        width: 85%;
+        background-color: #ffffff10;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 4% 60% / 210%;
+    } 
+    .Header .cajNav{  
+        background-color: #046b8b93;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 0.5% 30% / 100%;
+        margin-left: 2.2%;
+        margin-top: 3.9%;
+        padding-right: 9.5%;
+        width: 94%;
+}
 }
 .main{
     font-family: 'inter', sans-serif;
     font-weight: 400;
+    padding: 0;
 }
 .main .card-group{
     padding-bottom: 4%;
+    padding-left: 0;
+    padding-right: 0;
 }
 .card{
     text-align: center;
@@ -105,6 +149,10 @@
     height: 39.5vh;
     object-fit: cover;
     background-color: rgba(168, 153, 126, 0.13);
+}
+.boxC{
+    margin-right: 0;
+    margin-left: 0;
 }
 .main .card .img{
     width: 100%;
@@ -140,13 +188,17 @@
     height: 100%;
 }
 .maps{
-    width: 50%;
+    width: 40%;
 }
-@media (max-width:768) {
+@media (max-width:768px) {
     .maps{
-        width:90%;
+        width: 90%;
         height: 56%;
-        min-width:0;
+        min-width:0px;
+    }
+    .card{
+        margin-bottom: 4vh;
+        min-width: 0px;
     }
 }
 .footer{
@@ -161,20 +213,19 @@
 }
 .cajaLogo{
     margin: auto;
+    padding-top: 1vh;
+    text-align: center;
 }
-.copyright{
+.cajUno{
     padding-left: 10%;
+}
+.footer .logoMaps{
+    color: azure;
+    padding-left: 7.6%;
 }
 .footerLogo{
     height: 18vh;
     margin-top: 1vh;
-}
-.footer .logoMaps{
-    color: azure;
-}
-.footer .copyright .title6{
-    font-size: 0.8rem;
-    color: rgb(248, 174, 38);
 }
 .linkFooter{
     display: flex;
@@ -190,51 +241,42 @@
 .footer .linkFooter .linkRedes .Icon:hover{
     color: none;
 }
-
-
-/*
-.footer .cajaLogo{
-    display: inline-block;
-    width: 8%;
-    height: 64%;
-    margin-left: 46%;
-    text-align: center;
-    padding-top: 0;
-}
-.footerLogo{
-    height: 18vh;
-    margin-top: 1vh;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-}
-.footer .logoMaps{
-    color: azure;
-    padding-top: 0;
-}
-.linkFooter{
-    text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    margin-top: 5vh;
-    margin-right: 1.5vh;
-    margin-left: 41.8%;
-    width: fit-content;
-    text-align: center;
-}
-.linkFooter .Icon{
-    margin: 0.4vh;
-    padding-bottom: 2vh;
-    color: rgb(248, 174, 38);
-}
-.footer .copyright{
-    text-align: center;
-    margin-top: 1.2vh;
-}
-.footer .copyright .title6{
+.footer .titleDerecho{
     font-size: 0.8rem;
     color: rgb(248, 174, 38);
-}*/
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+    .cajaLogo{
+        padding-left: 0;
+        text-align: center;
+        width:100%;
+    }
+    .logoMaps{
+        padding-left: 11.8%;
+        width: 85%;
+    }
+    .footerLogo{
+        height: 14vh;
+        margin-top: 2%;
+    }
+    .linkFooter{
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        padding-top: 0;
+        padding-right: 1.4vh;
+    }
+    .linkFooter .linkRedes .Icon{
+        font-size: 2.4rem;
+    }
+    .footer .titleDerecho{
+        margin-top: 8%;
+        font-size: 0.8rem;
+    }
+}
 /*Pages info*/
 .HeaderInfo{
     background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
