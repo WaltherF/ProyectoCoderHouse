@@ -32,7 +32,6 @@
     justify-content: flex-end;
     list-style: none;
     padding-left: 5vh;
-    
 }
 .Header .cajNav .linkItem{
     color: rgb(0, 0, 0);
@@ -88,6 +87,12 @@
         margin-left: 2.2%;
         margin-top: 3.9%;
         padding-right: 9.5%;
+    }
+    .Header .navbar{
+        background-color: #046b8b93;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 0% 0% 4% 4%;
     }
     .Header .section{
         text-align: center;
@@ -145,7 +150,7 @@
     text-align: center;
     border: 1.2px solid black;
     padding: 0.8%;
-    width: 44vh !important;
+    width: 41vh !important;
     height: 39.5vh;
     object-fit: cover;
     background-color: rgba(168, 153, 126, 0.13);
@@ -183,6 +188,7 @@
     margin-top: 4px;
     background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
     color: azure;
+    font-style: oblique;
 }
 .caja{
     height: 100%;
@@ -282,52 +288,93 @@
     background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 47%;
+    background-position-y: 60%;
     height: 64vh;
-    position: relative;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
 }
-.HeaderInfo .contenedorLogo{
-    display: inline-block;
+.HeaderInfo .headerCaj{
+    height: 100%;
+}
+.HeaderInfo .contenedorLogoI{
     width: 10%;
-    text-align: center;
-    padding: 0;
-    margin-left: 26px;
-    margin-top: 6px;
 }
-.HeaderInfo .Logo{
-    height: 24vh;
-    display: inline-block;
+.HeaderInfo .contenedorLogoI .logoI{
+    height: 28vh;
 }
-.HeaderInfo .cajNav{
-    display: inline-block;
-    text-align: right;
-    width: 85%;
-    position: absolute;
-    margin-top: 117px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 1.8%;
-    text-decoration: none;
-    padding-right: 2.8%;
-    font-size: 1.3rem; 
-    background-color: #046b8b93;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 0.5% 30% / 100%
+.HeaderInfo .listNavI{
+    width: 80%;
+    margin-left: 2%;
 }
-.HeaderInfo .linkNav{
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    margin: 1%;
-    padding-left: 8px;
+.HeaderInfo .cajNavI .linkNavI{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding-left: 5vh;
 }
-.HeaderInfo .link{
+.HeaderInfo .cajNavI .linkNavI .linkI{
     color: rgb(248, 174, 38);
+    padding-left: 3.5%;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.cajNavI .linkNavI .linkI:hover{
+    color: rgb(250, 211, 83);
 }
 .HeaderInfo .title{
-    text-align: center;
-    font-size: 3.8rem;
-    padding-top: 10vh;
+    font-size: 3.2rem;
+    padding-top: 15vh;
+    font-weight: 600;
+    color: black;
+    font-style: oblique;
+}
+@media screen and (max-width:768px) {
+    .headerInfo{
+        background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 80%;
+        height: 80%;
+        top: 0;
+        z-index: 9999;
+    }
+    .HeaderInfo .navbar{
+        background-color: #046b8b93;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 0% 0% 4% 4%;
+    }
+    .Header .contenedorLogoI{
+        margin-top: 1.5vh;
+    }
+    .HeaderInfo .contenedorLogoI .logoI{
+        height: 16vh;
+        padding-left: 1vh;
+    }
+    .HeaderInfo .cajNavI{
+            margin-left: 2.2%;
+            margin-top: 3.9%;
+            padding-right: 9.5%;
+            z-index: 10;
+    }
+    .HeaderInfo .title{
+        padding-top: 0;
+        font-size: 2.2rem;
+        margin-top: 5.5vh;
+    }
+}
+@media screen and (min-width:769px) {
+    .HeaderInfo .cajNavI{
+        background-color: #046b8b93;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 0.5% 30% / 100%;
+        margin-left: 2.2%;
+        margin-top: 3.9%;
+        padding-right: 9.5%;
+        width: 94%;
+    }
 }
 .infoMain{
     text-align: center;
@@ -379,45 +426,76 @@
 }
 /*Page Contacto*/
 .mainContacto{
-    text-align: center; 
-    background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+    font-family: 'inter' sans-serif;
+    font-weight: 400;
 }
 .mainContacto .contentT{ 
     text-align: center;
-    height: 50vh;
-    width: 38%;
+    height: auto;
     margin-top: 12%;
     margin-bottom: 12%;
-    margin-left: 31%;
+    padding-bottom: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;  
+    font-family: 'inter' sans-serif;
+    font-weight: 400; 
+}
+.mainContacto .contentT {
+    position: relative;
+    z-index: 1;
+    background-image: url('ruta/de/la/imagen.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.mainContacto .contentT::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.mainContacto .formContac{
+    width: 48%;
+    background-color: rgba(182, 182, 182, 0.774);
 }
 .mainContacto .contentT .title{
-    font-size: 1.6rem;
-    padding-top: 2.4%;
-    padding-bottom: 1%;
+    font-size: 2.4rem;
+    padding-top: 1.6%;
+    padding-bottom: 0.2%;
+    font-style: oblique;
+    color: rgb(248, 174, 38);
 }
 .mainContacto .contentT .p{
-    padding-bottom: 4.4%;
+    padding-bottom: 1.6%;
+    font-size: 1.2rem;
     color: azure;
 }
-.mainContacto .contentT .caja1{
-    display: inline-block;
-    width: 27.8%;
+.mainContacto .cajEnviar{
+    text-align: end;
 }
-.mainContacto .contentT .caja2{
-    display: inline-block;
-    width: 27.8%;
-}
-.mainContacto .contentT .cj{
-    width: 100%;
-}
-.mainContacto .contentT .caja3{
-    margin: 3px;
-    margin-bottom: 10px;
-}
-.mainContacto .contentT .caja3 .mail{
-    width: 56.8%;
-}
-.mainContacto .contentT .caja5{
-    margin-top: 0.8%;
-    font-size: 1.2rem;
+@media screen and (max-width:768px) {
+    .mainContacto .formContac{
+        width: 100%;
+        background-color: rgba(182, 182, 182, 0.774);
+    }
+    .mainContacto .cajEnviar{
+        text-align: center;
+    }
+    .mainContacto .contentT{
+        padding-bottom: 30%;
+        margin: 0;
+    }
+    .mainContacto .contentT .title{
+        font-size: 2rem;
+        padding: 4%;
+        padding-top: 6%;
+    }
+    .mainContacto .contentT .p{
+        font-size: 1.1rem;
+        padding-bottom: 8%;
+    }
 }
