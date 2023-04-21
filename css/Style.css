@@ -353,10 +353,10 @@
         padding-left: 1vh;
     }
     .HeaderInfo .cajNavI{
-            margin-left: 2.2%;
-            margin-top: 3.9%;
-            padding-right: 9.5%;
-            z-index: 10;
+        margin-left: 2.2%;
+        margin-top: 3.9%;
+        padding-right: 9.5%;
+        z-index: 10;
     }
     .HeaderInfo .title{
         padding-top: 0;
@@ -377,52 +377,76 @@
     }
 }
 .infoMain{
-    text-align: center;
+    font-family: 'inter' sans-serif;
+    font-weight: 400;
+}
+.infoMain .titleMain{
+    padding-top: 2vh;
+    font-size: 2.4rem;
+    font-style: oblique;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.infoMain .cajSec{
+    width: auto;
+    margin: auto;
+}
+.infoMain .cajSec .secInfo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
 }
-.infoMain .title{
-    font-size: 3rem;
-    margin-top: 1.3%;
+.infoMain .secInfo .titleHI{
+    font-size: 2rem;
+    padding-bottom: 3vh;
 }
-.infoMain .infoLago{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 90%;
-    background-color: #2521211e;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 5%;
-    padding: 0.8%;
+.infoMain .secInfo .titleH{
+    font-size: 2rem;
+    padding-bottom: 3vh;
 }
-.infoMain .videoUno{
-    width: 24%;
-    padding-top: 1.8%;
-    padding-bottom: 1.6%;
+.infoMain .cajImg{
+    width: auto;
+    padding: auto;
 }
-.infoMain .video{
-    height: 24vh;
-    padding: 2%;
+.infoMain .cajImg .secImg{
+    height: 30vh;
+    width: 60vh;
+    border-radius: 2%;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
-.infoMain .infoLago .titleVideo{
-    text-decoration:overline;
-    text-align: start;
-    padding-left: 2.6%;
+.infoMain .cajImg .secImgD{
+    height: 30vh;
+    width: 60vh;
+    border-radius: 2%;
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
-.infoLago .p1{
-    width: 60%;
-    font-size: 1.5rem;
-    color: rgb(248, 174, 38);
-    text-align: start;
-    margin-top: 0;
-    padding-top: 3.5%;
-    padding-left: 2%;
-    padding-right: 2%;
+.infoMain .cajSec .cajImg{
+    margin-right: 1.5rem;
+}
+.infoMain .cajSec .cajImgD{
+    margin-left: 1.5rem;
+}
+@media screen and (max-width:768px) {
+    .infoMain .cajImg .secImg{
+        height: 30vh;
+        width: 40vh;
+        border-radius: 2%;
+        object-fit: cover;
+    }   
+    .infoMain .cajImg .secImgD{
+        height: 30vh;
+        width: 40vh;
+        border-radius: 2%;
+        object-fit: cover;
+    }
+    .infoMain .secInfo .titleHI{
+        padding-top: 5vh;
+    }
 }
 /*Page Contacto*/
 .mainContacto{
