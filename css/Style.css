@@ -448,6 +448,120 @@
         padding-top: 5vh;
     }
 }
+/*page Concienticemos*/
+.concienciaMain .bannerCamping{
+    background-image: url(../assets/img/concienticemos/003.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.concienciaMain .bannerCamping .banner{
+    width: 35%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.concienciaMain .contInfo{
+    width: auto;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.concienciaMain .contInfoDos{
+    margin: 0;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.concienciaMain .contInfo .contImg{
+    padding: 0;
+}
+.concienciaMain .contInfo .contImg .img{
+    height: 40vh;
+    width: 62vh;
+    object-fit: cover;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);  
+}
+.concienciaMain .contInfoDos .contImgDos .imgDos{
+    height: 40vh;
+    width: 62vh;
+    object-fit: cover;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+.concienciaMain .contInfo .parrafo .title{
+    font-style: oblique;
+    font-size: 2.2rem;
+}
+.concienciaMain .contInfo .parrafo{
+    padding: 0;
+}
+.concienciaMain .p{
+    width: fit-content;
+    padding: 0;
+    font-weight:400;
+    font-size: 1.2rem;
+}
+.concienciaMain .contInfoIII{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ffbc5fc5;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.concienciaMain .contInfoIII .contImgIzq{
+    width: fit-content;
+    padding: 0;
+}
+.concienciaMain .contInfoIII .contImgIzq .img{
+    height: 44vh;
+    width: 52vh;
+    object-fit: cover;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+.concienciaMain .contInfoIII .parrafo .title{
+    font-weight:600;
+    font-size: 1.6rem;
+}
+.concienciaMain .contInfoIII .parrafo{
+    height: 44vh;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    font-weight:400;
+    font-size: 1.2rem;
+}
+.concienciaMain .contInfoIII .contImgDcho{
+    width: fit-content;
+    padding: 0;
+}
+.concienciaMain .contInfoIII .contImgDcho .img{
+    height: 44vh;
+    width: 52vh;
+    object-fit: cover;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+@media screen and (max-width:768px) {
+    .concienciaMain .bannerCamping .banner{
+        width: 75%;
+        padding-top: 1rem;
+    padding-bottom: 1rem;
+    }
+}
 /*Page Contacto*/
 .mainContacto{
     font-family: 'inter' sans-serif;
