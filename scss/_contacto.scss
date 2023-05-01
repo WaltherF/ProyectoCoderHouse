@@ -22,7 +22,7 @@
                 padding-top: 1.6%;
                 padding-bottom: 0.2%;
                 font-style: oblique;
-                color: $colorprimary;
+                color: azure;
             }
             .p{
                 padding-bottom: 1.6%;
@@ -69,6 +69,7 @@
             .contentT{
                 padding-bottom: 30%;
                 margin: 0;
+                background-image:linear-gradient(to top, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.726)), url(../assets/img/contacto/hojaV.png);
                 .title{
                     font-size: 2rem;
                     padding: 4%;

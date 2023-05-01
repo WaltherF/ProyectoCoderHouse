@@ -8,7 +8,7 @@
 }
 
 .bodyIndex .Header {
-  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background: url(../assets/img/backgroundheader/1920.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 47%;
@@ -30,7 +30,7 @@
 .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: end;
   list-style: none;
   padding-left: 5vh;
 }
@@ -38,7 +38,7 @@
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
-  text-decoration: none;
+  font-weight: 600;
 }
 .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .link:hover {
   color: rgb(250, 211, 83);
@@ -63,20 +63,21 @@
   padding-top: 5vh;
   font-size: 2.4rem;
   font-weight: 600;
-  color: rgb(248, 174, 38);
+  color: black;
   font-style: oblique;
 }
 @media screen and (max-width: 768px) {
   .bodyIndex .Header {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1725490196), rgba(0, 0, 0, 0.3294117647), rgba(0, 0, 0, 0)), url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg) !important;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.1294117647), rgba(0, 0, 0, 0)), url(../assets/img/backgroundheader/paisaje.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 80%;
+    background-position-y: top;
+    background-position-x: center;
     height: auto;
   }
   .bodyIndex .Header .navbar {
-    background-color: rgba(4, 107, 139, 0.5764705882);
-    backdrop-filter: blur(10px);
+    background-color: rgba(4, 107, 139, 0.0666666667);
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0% 0% 4% 4%;
   }
@@ -87,6 +88,9 @@
     height: 16vh;
     padding-left: 1vh;
   }
+  .bodyIndex .Header .navbar .navigation .iconCollap {
+    background-color: rgb(248, 174, 38);
+  }
   .bodyIndex .Header .section {
     text-align: center;
     margin-top: 7vh;
@@ -95,14 +99,15 @@
   .bodyIndex .Header .section .column .title {
     font-size: 2.2rem;
     font-weight: 600;
+    color: rgb(248, 174, 38);
   }
   .bodyIndex .Header .section .column .p {
     font-size: 1.4rem;
     padding-top: 7vh;
-    color: rgb(248, 174, 38);
+    color: white;
   }
   .bodyIndex .Header .section .column .viajar {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 600;
     padding-top: 2vh;
     padding-bottom: 3vh;
@@ -111,7 +116,7 @@
 }
 @media screen and (min-width: 769px) {
   .bodyIndex .Header .cajNav {
-    background-color: rgba(4, 107, 139, 0.5764705882);
+    background-color: rgba(64, 93, 105, 0.35);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0.5% 30%/100%;
@@ -304,7 +309,7 @@
 }
 
 .bodyInfo .HeaderInfo {
-  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background: url(../assets/img/backgroundheader/1920.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 60%;
@@ -336,10 +341,14 @@
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
+  font-weight: 600;
   text-decoration: none;
 }
 .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
   color: rgb(250, 211, 83);
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .iconCollap {
+  background-color: rgb(248, 174, 38);
 }
 .bodyInfo .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
@@ -350,15 +359,15 @@
 }
 @media screen and (max-width: 768px) {
   .bodyInfo .HeaderInfo {
-    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.1294117647), rgba(0, 0, 0, 0)), url(../assets/img/backgroundheader/paisaje.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 80%;
+    background-position-x: center;
     height: auto;
   }
   .bodyInfo .HeaderInfo .headerCaj .navbar {
-    background-color: rgba(4, 107, 139, 0.5764705882);
-    backdrop-filter: blur(10px);
+    background-color: rgba(4, 107, 139, 0.0666666667);
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0% 0% 4% 4%;
   }
@@ -372,14 +381,15 @@
   .bodyInfo .HeaderInfo .headerCaj .title {
     padding-top: 0;
     font-size: 2.2rem;
-    margin-top: 18vh;
+    margin-top: 22vh;
     margin-bottom: 0;
-    padding-bottom: 5.5vh;
+    padding-bottom: 4vh;
+    color: rgb(248, 174, 38);
   }
 }
 @media screen and (min-width: 769px) {
   .bodyInfo .cajNavI {
-    background-color: rgba(4, 107, 139, 0.5764705882);
+    background-color: rgba(64, 93, 105, 0.35);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0.5% 30%/100%;
@@ -424,19 +434,43 @@
   width: auto;
   padding: auto;
 }
-.bodyInfo .infoMain .container .cajSec .cajImg .secImg {
+.bodyInfo .infoMain .container .cajSec .cajImg .imgZI, .bodyInfo .infoMain .container .cajSec .cajImg .imgZIV, .bodyInfo .infoMain .container .cajSec .cajImg .imgZIII, .bodyInfo .infoMain .container .cajSec .cajImg .imgZII {
   height: 30vh;
   width: 60vh;
   border-radius: 2%;
   object-fit: cover;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  background-image: url(../assets/img/fotospaisajes/lacar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.bodyInfo .infoMain .container .cajSec .cajImg .secImgD {
+.bodyInfo .infoMain .container .cajSec .cajImg .imgZII {
+  background-image: url(../assets/img/fotospaisajes/hermoso.webp);
+}
+.bodyInfo .infoMain .container .cajSec .cajImg .imgZIII {
+  background-image: url(../assets/img/fotospaisajes/Escondido.jpg);
+}
+.bodyInfo .infoMain .container .cajSec .cajImg .imgZIV {
+  background-image: url(../assets/img/fotospaisajes/correntoso.jpg);
+  background-position-y: 35%;
+}
+.bodyInfo .infoMain .container .cajSec .cajImg .imgDI, .bodyInfo .infoMain .container .cajSec .cajImg .imgDIII, .bodyInfo .infoMain .container .cajSec .cajImg .imgDII {
   height: 30vh;
   width: 60vh;
   border-radius: 2%;
   object-fit: cover;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  background-image: url(../assets/img/fotospaisajes/machonico.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+}
+.bodyInfo .infoMain .container .cajSec .cajImg .imgDII {
+  background-image: url(../assets/img/fotospaisajes/falkner.jpg);
+}
+.bodyInfo .infoMain .container .cajSec .cajImg .imgDIII {
+  background-image: url(../assets/img/fotospaisajes/espejo.jpg);
+  background-position-y: 16%;
 }
 .bodyInfo .infoMain .secMaps {
   height: 48vh;
@@ -464,17 +498,50 @@
   .bodyInfo .infoMain .container .cajSec .cajImg {
     width: auto;
   }
-  .bodyInfo .infoMain .container .cajSec .cajImg .secImg {
+  .bodyInfo .infoMain .container .cajSec .cajImg .imgZI, .bodyInfo .infoMain .container .cajSec .cajImg .imgZII, .bodyInfo .infoMain .container .cajSec .cajImg .imgZIII, .bodyInfo .infoMain .container .cajSec .cajImg .imgZIV {
     height: 30vh;
     width: 40vh;
     margin: 0;
-    border-radius: 2%;
+    background-image: url(../assets/img/fotospaisajes/lacar800.png);
+    background-position-x: 35%;
   }
-  .bodyInfo .infoMain .container .cajSec .cajImg .secImgD {
+  .bodyInfo .infoMain .container .cajSec .cajImg .imgZII {
     height: 30vh;
     width: 40vh;
     margin: 0;
-    border-radius: 2%;
+    background-image: url(../assets/img/fotospaisajes/800pxhermoso.png);
+  }
+  .bodyInfo .infoMain .container .cajSec .cajImg .imgZIII {
+    height: 30vh;
+    width: 40vh;
+    margin: 0;
+    background-image: url(../assets/img/fotospaisajes/Escondido.jpg);
+    background-position-x: 55%;
+  }
+  .bodyInfo .infoMain .container .cajSec .cajImg .imgZIV {
+    height: 30vh;
+    width: 40vh;
+    margin: 0;
+    background-image: url(../assets/img/fotospaisajes/800pxcorrentoso.png);
+  }
+  .bodyInfo .infoMain .container .cajSec .cajImg .imgDI, .bodyInfo .infoMain .container .cajSec .cajImg .imgDII, .bodyInfo .infoMain .container .cajSec .cajImg .imgDIII {
+    height: 30vh;
+    width: 40vh;
+    margin: 0;
+    background-image: url(../assets/img/fotospaisajes/800machonico.png);
+    background-position-x: 65%;
+  }
+  .bodyInfo .infoMain .container .cajSec .cajImg .imgDII {
+    height: 30vh;
+    width: 40vh;
+    margin: 0;
+    background-image: url(../assets/img/fotospaisajes/falkner.jpg);
+  }
+  .bodyInfo .infoMain .container .cajSec .cajImg .imgDIII {
+    height: 30vh;
+    width: 40vh;
+    margin: 0;
+    background-image: url(../assets/img/fotospaisajes/800espejo.png);
   }
   .bodyInfo .infoMain .container .cajSec .secInfo .titleHI {
     padding-top: 5vh;
@@ -572,7 +639,7 @@
 }
 
 .bodyAventura .HeaderInfo {
-  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background: url(../assets/img/backgroundheader/1920.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 60%;
@@ -604,10 +671,14 @@
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
+  font-weight: 600;
   text-decoration: none;
 }
 .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
   color: rgb(250, 211, 83);
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .iconCollap {
+  background-color: rgb(248, 174, 38);
 }
 .bodyAventura .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
@@ -618,15 +689,15 @@
 }
 @media screen and (max-width: 768px) {
   .bodyAventura .HeaderInfo {
-    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.1294117647), rgba(0, 0, 0, 0)), url(../assets/img/backgroundheader/paisaje.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 80%;
+    background-position-x: center;
     height: auto;
   }
   .bodyAventura .HeaderInfo .headerCaj .navbar {
-    background-color: rgba(4, 107, 139, 0.5764705882);
-    backdrop-filter: blur(10px);
+    background-color: rgba(4, 107, 139, 0.0666666667);
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0% 0% 4% 4%;
   }
@@ -640,14 +711,15 @@
   .bodyAventura .HeaderInfo .headerCaj .title {
     padding-top: 0;
     font-size: 2.2rem;
-    margin-top: 18vh;
+    margin-top: 22vh;
     margin-bottom: 0;
-    padding-bottom: 5.5vh;
+    padding-bottom: 4vh;
+    color: rgb(248, 174, 38);
   }
 }
 @media screen and (min-width: 769px) {
   .bodyAventura .cajNavI {
-    background-color: rgba(4, 107, 139, 0.5764705882);
+    background-color: rgba(64, 93, 105, 0.35);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0.5% 30%/100%;
@@ -684,10 +756,11 @@
   width: 44vh;
   height: 34vh;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.bodyAventura .mainAventura .container .Exp .contImg .imgII {
+.bodyAventura .mainAventura .container .Exp .contImg .imgII, .bodyAventura .mainAventura .container .Exp .contImg .imgIV {
   width: 34vh;
   height: 28vh;
   margin: 3vh;
@@ -699,15 +772,7 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
 }
 .bodyAventura .mainAventura .container .Exp .contImg .imgIV {
-  width: 34vh;
-  height: 28vh;
-  margin: 3vh;
   background-image: url(../assets/img/aventurate/perfil4.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  border-radius: 4%;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
 }
 .bodyAventura .mainAventura .container .Exp .contParrafo {
   display: flex;
@@ -734,10 +799,11 @@
   width: 44vh;
   height: 34vh;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.bodyAventura .mainAventura .container .ExpI .contImg .imgI {
+.bodyAventura .mainAventura .container .ExpI .contImg .imgI, .bodyAventura .mainAventura .container .ExpI .contImg .imgV, .bodyAventura .mainAventura .container .ExpI .contImg .imgIII {
   width: 34vh;
   height: 28vh;
   margin: 3vh;
@@ -749,26 +815,10 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
 }
 .bodyAventura .mainAventura .container .ExpI .contImg .imgIII {
-  width: 34vh;
-  height: 28vh;
-  margin: 3vh;
   background-image: url(../assets/img/aventurate/perfil3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  border-radius: 4%;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
 }
 .bodyAventura .mainAventura .container .ExpI .contImg .imgV {
-  width: 34vh;
-  height: 28vh;
-  margin: 3vh;
   background-image: url(../assets/img/aventurate/perfil5.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  border-radius: 4%;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
 }
 .bodyAventura .mainAventura .container .ExpI .contParrafo {
   display: flex;
@@ -812,6 +862,15 @@
   .bodyAventura .mainAventura .container .title {
     font-size: 2rem;
   }
+  .bodyAventura .mainAventura .container .Exp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bodyAventura .mainAventura .container .Exp .contImg {
+    margin: 0;
+  }
   .bodyAventura .mainAventura .container .Exp .contParrafo .p {
     text-align: center;
     padding-left: 1.3vh;
@@ -819,6 +878,12 @@
   }
   .bodyAventura .mainAventura .container .Exp .contParrafo .subTitle {
     padding-top: 5vh;
+  }
+  .bodyAventura .mainAventura .container .ExpI {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .bodyAventura .mainAventura .container .ExpI .contParrafo .p {
     text-align: center;
@@ -920,7 +985,7 @@
 }
 
 .bodyConciencia .HeaderInfo {
-  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background: url(../assets/img/backgroundheader/1920.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 60%;
@@ -952,10 +1017,14 @@
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
+  font-weight: 600;
   text-decoration: none;
 }
 .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
   color: rgb(250, 211, 83);
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .iconCollap {
+  background-color: rgb(248, 174, 38);
 }
 .bodyConciencia .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
@@ -966,15 +1035,15 @@
 }
 @media screen and (max-width: 768px) {
   .bodyConciencia .HeaderInfo {
-    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.1294117647), rgba(0, 0, 0, 0)), url(../assets/img/backgroundheader/paisaje.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 80%;
+    background-position-x: center;
     height: auto;
   }
   .bodyConciencia .HeaderInfo .headerCaj .navbar {
-    background-color: rgba(4, 107, 139, 0.5764705882);
-    backdrop-filter: blur(10px);
+    background-color: rgba(4, 107, 139, 0.0666666667);
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0% 0% 4% 4%;
   }
@@ -988,14 +1057,15 @@
   .bodyConciencia .HeaderInfo .headerCaj .title {
     padding-top: 0;
     font-size: 2.2rem;
-    margin-top: 18vh;
+    margin-top: 22vh;
     margin-bottom: 0;
-    padding-bottom: 5.5vh;
+    padding-bottom: 4vh;
+    color: rgb(248, 174, 38);
   }
 }
 @media screen and (min-width: 769px) {
   .bodyConciencia .cajNavI {
-    background-color: rgba(4, 107, 139, 0.5764705882);
+    background-color: rgba(64, 93, 105, 0.35);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0.5% 30%/100%;
@@ -1087,7 +1157,7 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
-.bodyConciencia .concienciaMain .contInfoIII .contImgIzq {
+.bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
   height: 44vh;
   width: 52vh;
   background-image: url(../assets/img/concienticemos/camp.jpg);
@@ -1111,15 +1181,8 @@
   font-size: 2rem;
 }
 .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
-  height: 44vh;
-  width: 52vh;
   background-image: url(../assets/img/concienticemos/night-campfire-night.jpg);
   background-size: cover;
-  background-position-x: 50%;
-  background-repeat: no-repeat;
-  border-radius: 2%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  padding: 0;
 }
 .bodyConciencia .concienciaMain .secMaps {
   height: 48vh;
@@ -1143,6 +1206,7 @@
 @media screen and (max-width: 768px) {
   .bodyConciencia .concienciaMain .bannerCamping {
     margin-top: 1rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/contacto/hojaH.png);
   }
   .bodyConciencia .concienciaMain .bannerCamping .banner {
     width: 85%;
@@ -1152,7 +1216,7 @@
   .bodyConciencia .concienciaMain .contInfo {
     padding-top: 1rem;
     margin-top: 1rem;
-    margin-bottom: 8rem;
+    margin-bottom: 0;
   }
   .bodyConciencia .concienciaMain .contInfo .contImg {
     height: 30vh;
@@ -1173,7 +1237,8 @@
     padding-bottom: 2.5rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
   .bodyConciencia .concienciaMain .contInfo .parrafo .p {
     font-size: 1.3rem;
@@ -1182,10 +1247,12 @@
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     margin-bottom: 1rem;
+    margin-top: 3rem;
   }
   .bodyConciencia .concienciaMain .contInfoDos .parrafo {
     padding-left: 1.4rem;
     padding-right: 1.4rem;
+    margin-bottom: 1rem;
   }
   .bodyConciencia .concienciaMain .contInfoDos .parrafo .p {
     font-size: 1.3rem;
@@ -1200,7 +1267,7 @@
     border-radius: 2%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
-  .bodyConciencia .concienciaMain .contInfoIII .contImgIzq {
+  .bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
     background-image: url(../assets/img/concienticemos/720p\ camp.png);
     border-radius: 0;
   }
@@ -1310,7 +1377,7 @@
 }
 
 .bodyContac .HeaderInfo {
-  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background: url(../assets/img/backgroundheader/1920.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 60%;
@@ -1342,10 +1409,14 @@
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
+  font-weight: 600;
   text-decoration: none;
 }
 .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
   color: rgb(250, 211, 83);
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .iconCollap {
+  background-color: rgb(248, 174, 38);
 }
 .bodyContac .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
@@ -1356,15 +1427,15 @@
 }
 @media screen and (max-width: 768px) {
   .bodyContac .HeaderInfo {
-    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.1294117647), rgba(0, 0, 0, 0)), url(../assets/img/backgroundheader/paisaje.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: 80%;
+    background-position-x: center;
     height: auto;
   }
   .bodyContac .HeaderInfo .headerCaj .navbar {
-    background-color: rgba(4, 107, 139, 0.5764705882);
-    backdrop-filter: blur(10px);
+    background-color: rgba(4, 107, 139, 0.0666666667);
+    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0% 0% 4% 4%;
   }
@@ -1378,14 +1449,15 @@
   .bodyContac .HeaderInfo .headerCaj .title {
     padding-top: 0;
     font-size: 2.2rem;
-    margin-top: 18vh;
+    margin-top: 22vh;
     margin-bottom: 0;
-    padding-bottom: 5.5vh;
+    padding-bottom: 4vh;
+    color: rgb(248, 174, 38);
   }
 }
 @media screen and (min-width: 769px) {
   .bodyContac .cajNavI {
-    background-color: rgba(4, 107, 139, 0.5764705882);
+    background-color: rgba(64, 93, 105, 0.35);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 0.5% 30%/100%;
@@ -1418,7 +1490,7 @@
   padding-top: 1.6%;
   padding-bottom: 0.2%;
   font-style: oblique;
-  color: rgb(248, 174, 38);
+  color: azure;
 }
 .bodyContac .mainContac .contentT .p {
   padding-bottom: 1.6%;
@@ -1458,6 +1530,7 @@
   .bodyContac .mainContac .contentT {
     padding-bottom: 30%;
     margin: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.726)), url(../assets/img/contacto/hojaV.png);
   }
   .bodyContac .mainContac .contentT .title {
     font-size: 2rem;

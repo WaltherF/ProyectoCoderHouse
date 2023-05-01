@@ -1,0 +1,179 @@
+@import "_variables";
+.bodyInfo{
+    @import "_header";
+    .infoMain{
+        font-family: $tipografiaG;
+        font-weight: 400;
+        .container{
+            .titleMain{
+                padding-top: 2vh;
+                font-size: 2.4rem;
+                font-style: oblique;
+                font-weight: 500;
+                text-decoration: underline;
+            }
+            .cajSec{
+                width: auto;
+                margin: auto;
+                .secInfo{
+                    display: map-get($flexMap, flex);
+                    flex-direction: map-get($flexMap, column);
+                    justify-content: map-get($flexMap, justify-content-center);
+                    align-items: map-get($flexMap, align-items-center);
+                    padding-left: 3%;
+                    padding-right: 3%;
+                    .titleHI{
+                        font-size: 2rem;
+                        padding-bottom: 3vh;
+                    }
+                    .titleH{
+                        font-size: 2rem;
+                        padding-bottom: 3vh;
+                    }
+                }
+                .cajImg{
+                    width: auto;
+                    padding: auto;
+                    .imgZI{
+                        height: 30vh;
+                        width: 60vh;
+                        border-radius: 2%;
+                        object-fit: cover;
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+                        background-image: url(../assets/img/fotospaisajes/lacar.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                    .imgZII{
+                        @extend .imgZI;
+                        background-image: url(../assets/img/fotospaisajes/hermoso.webp);
+                    }
+                    .imgZIII{
+                        @extend .imgZI;
+                        background-image: url(../assets/img/fotospaisajes/Escondido.jpg);
+                    }
+                    .imgZIV{
+                        @extend .imgZI;
+                        background-image: url(../assets/img/fotospaisajes/correntoso.jpg);
+                        background-position-y: 35%;
+                    }
+                    .imgDI{
+                        height: 30vh;
+                        width: 60vh;
+                        border-radius: 2%;
+                        object-fit: cover;
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+                        background-image: url(../assets/img/fotospaisajes/machonico.jpeg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position-y: 60%;
+                    }
+                    .imgDII{
+                        @extend .imgDI;
+                        background-image: url(../assets/img/fotospaisajes/falkner.jpg);
+                    }
+                    .imgDIII{
+                        @extend .imgDI;
+                        background-image: url(../assets/img/fotospaisajes/espejo.jpg);
+                        background-position-y: 16%;
+                        
+                    }   
+                }
+            }
+        }
+        .secMaps{
+            height: 48vh;
+            .caja{
+                height: 100%;
+                .titleMaps{
+                    padding-top: 2.5vh;
+                    padding-bottom: 0.8vh;
+                    padding-left: 1%;
+                    font-size: 1.8rem;
+                    margin-top: 4px;
+                    background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+                    color: azure;
+                    font-style: oblique;
+                }
+                .maps{
+                    width: 40%;
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .infoMain{
+            .container{
+                .titleMain{
+                    font-size: 1.8rem;
+                }
+                .cajSec{
+                    .cajImg{
+                        width: auto;
+                        .imgZI{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            background-image: url(../assets/img/fotospaisajes/lacar800.png);
+                            background-position-x: 35%;
+                        }
+                        .imgZII{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            background-image: url(../assets/img/fotospaisajes/800pxhermoso.png);
+                        } 
+                        .imgZIII{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            background-image: url(../assets/img/fotospaisajes/Escondido.jpg);
+                            background-position-x: 55%;
+                        }
+                        .imgZIV{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            background-image: url(../assets/img/fotospaisajes/800pxcorrentoso.png);
+                        }  
+                        .imgDI{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            background-image: url(../assets/img/fotospaisajes/800machonico.png);
+                            background-position-x: 65%;
+                        }
+                        .imgDII{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            background-image: url(../assets/img/fotospaisajes/falkner.jpg);
+                        }
+                        .imgDIII{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            background-image: url(../assets/img/fotospaisajes/800espejo.png);
+                        }
+                    }
+                    .secInfo{
+                        .titleHI{
+                            padding-top: 5vh;
+                        }
+                    }
+                }
+            }
+            .secMaps{
+                .caja{
+                    .maps{
+                        width: 90%;
+                        height: 56%;
+                        min-width:0px;
+                    }
+                }
+            }
+        }
+    }
+    @import "_footer";
+}

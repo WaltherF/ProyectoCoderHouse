@@ -1,5 +1,5 @@
 .HeaderInfo{
-    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background: url(../assets/img/backgroundheader/1920.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 60%;
@@ -30,6 +30,7 @@
                                 color: $colorprimary;
                                 padding-left: 3.5%;
                                 font-size: 1.4rem;
+                                font-weight: 600;
                                 text-decoration: none;
                                 &:hover{
                                     color: rgb(250, 211, 83);
@@ -38,6 +39,9 @@
                         }
                     }
                 }
+            }
+            .iconCollap{
+                background-color: $colorprimary;
             }
         }
         .title{
@@ -51,15 +55,15 @@
 }
 @media screen and (max-width:768px) {
     .HeaderInfo{
-        background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+        background: linear-gradient(to top, #000000c0, #00000021,  #00000000), url(../assets/img/backgroundheader/paisaje.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position-y: 80%;
+        background-position-x: center;
         height: auto;
         .headerCaj{
             .navbar{
-                background-color: #046b8b93;
-                backdrop-filter: blur(10px);
+                background-color: #046b8b11;
+                backdrop-filter: blur(5px);
                 -webkit-backdrop-filter: blur(10px);
                 border-radius: 0% 0% 4% 4%;
                 .navigationI{
@@ -75,16 +79,17 @@
             .title{
                 padding-top: 0;
                 font-size: 2.2rem;
-                margin-top: 18vh;
+                margin-top: 22vh;
                 margin-bottom: 0;
-                padding-bottom: 5.5vh;
+                padding-bottom: 4vh;
+                color: $colorprimary;
             }   
         }
     }     
 }
 @media screen and (min-width:769px) {
     .cajNavI{
-        background-color: #046b8b93;
+        background-color: rgba(64, 93, 105, 0.350);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         border-radius: 0.5% 30% / 100%;

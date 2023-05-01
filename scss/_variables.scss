@@ -1,3 +1,15 @@
 $tipografiaG: 'Inter', sans-serif;
 $tono400: 400;
 $colorprimary: rgb(248, 174, 38);
+$flexMap:(
+    flex: flex,
+    row: row,
+    column: column,
+    justify-content-start: start,
+    justify-content-center: center,
+    justify-content-end: end,
+    align-items-start: start,
+    align-items-center: center,
+    align-items-end: end, 
+    space-between: space-between
+)
