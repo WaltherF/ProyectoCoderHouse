@@ -1,0 +1,1572 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.bodyIndex .Header {
+  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 47%;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  font-weight: 400;
+  padding: 0;
+}
+.bodyIndex .Header .navbar .navigation .contenedorLogo {
+  margin-left: 1.6%;
+}
+.bodyIndex .Header .navbar .navigation .contenedorLogo .logo {
+  height: 28vh;
+}
+.bodyIndex .Header .navbar .navigation .listNav {
+  width: 80%;
+  margin-left: 2%;
+}
+.bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 5vh;
+}
+.bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .link {
+  color: rgb(248, 174, 38);
+  padding-left: 3.5%;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .link:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyIndex .Header .section .column .title {
+  font-size: 3rem;
+  padding-top: 2.5vh;
+  font-weight: 600;
+  color: black;
+  font-style: oblique;
+}
+.bodyIndex .Header .section .column .p {
+  font-size: 1.7rem;
+  margin-top: 11vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 91%;
+  text-align: center;
+  color: rgb(248, 174, 38);
+}
+.bodyIndex .Header .section .column .viajar {
+  padding-top: 5vh;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: rgb(248, 174, 38);
+  font-style: oblique;
+}
+@media screen and (max-width: 768px) {
+  .bodyIndex .Header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1725490196), rgba(0, 0, 0, 0.3294117647), rgba(0, 0, 0, 0)), url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    height: auto;
+  }
+  .bodyIndex .Header .navbar {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0% 0% 4% 4%;
+  }
+  .bodyIndex .Header .navbar .navigation .contenedorLogo {
+    margin-top: 1.5vh;
+  }
+  .bodyIndex .Header .navbar .navigation .contenedorLogo .logo {
+    height: 16vh;
+    padding-left: 1vh;
+  }
+  .bodyIndex .Header .section {
+    text-align: center;
+    margin-top: 7vh;
+    width: 100%;
+  }
+  .bodyIndex .Header .section .column .title {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  .bodyIndex .Header .section .column .p {
+    font-size: 1.4rem;
+    padding-top: 7vh;
+    color: rgb(248, 174, 38);
+  }
+  .bodyIndex .Header .section .column .viajar {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    color: rgb(248, 174, 38);
+  }
+}
+@media screen and (min-width: 769px) {
+  .bodyIndex .Header .cajNav {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.5% 30%/100%;
+    margin-left: 2.2%;
+    margin-top: 3.9%;
+    padding-right: 9.5%;
+    width: 94%;
+  }
+  .bodyIndex .Header .section {
+    text-align: center;
+    margin-top: 135px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.062745098);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 4% 60%/210%;
+  }
+}
+.bodyIndex .main {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding: 0;
+}
+.bodyIndex .main .card-group {
+  padding-bottom: 4%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.bodyIndex .main .card-group .boxC {
+  margin-right: 0;
+  margin-left: 0;
+}
+.bodyIndex .main .card-group .boxC .card {
+  text-align: center;
+  border: 1.2px solid black;
+  padding: 0.8%;
+  width: 41vh !important;
+  height: 39.5vh;
+  object-fit: cover;
+  background-color: rgba(168, 153, 126, 0.13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyIndex .main .card-group .boxC .card .img {
+  width: 100%;
+  height: 28vh;
+  object-fit: cover;
+  padding-bottom: 0.2vh;
+}
+.bodyIndex .main .card-group .boxC .card .card-body .titleTarjeta {
+  font-weight: 400;
+  color: black;
+  font-size: 1.6rem;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.bodyIndex .main .card-group .boxC .card .card-body .titleTarjeta:hover {
+  color: rgb(209, 127, 3);
+  font-size: 1.8rem;
+  transition: 0.5s;
+}
+.bodyIndex .main .secMaps {
+  height: 48vh;
+}
+.bodyIndex .main .secMaps .caja {
+  height: 100%;
+}
+.bodyIndex .main .secMaps .caja .titleMaps {
+  padding-top: 2.5vh;
+  padding-bottom: 0.8vh;
+  padding-left: 1%;
+  font-size: 1.8rem;
+  margin-top: 4px;
+  background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+  color: azure;
+  font-style: oblique;
+}
+.bodyIndex .main .secMaps .caja .maps {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .bodyIndex .main .card-group .boxC .card {
+    margin-bottom: 4vh;
+    height: auto;
+    width: auto;
+    padding: 1vh;
+    border: 0.5px solid black;
+  }
+  .bodyIndex .main .card-group .boxC .card .img {
+    width: 38vh;
+    height: 24vh;
+  }
+  .bodyIndex .main .card-group .boxC .card .card-body .titleTarjeta {
+    padding-bottom: 1.5vh;
+  }
+  .bodyIndex .main .secMaps .caja .maps {
+    width: 90%;
+    height: 56%;
+    min-width: 0px;
+  }
+}
+.bodyIndex .footer {
+  list-style: none;
+  background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyIndex .footer .cajaLogo {
+  margin: auto;
+  padding-top: 1vh;
+  text-align: center;
+}
+.bodyIndex .footer .cajaLogo .cajUno {
+  padding-left: 10%;
+}
+.bodyIndex .footer .cajaLogo .cajUno .logoMaps {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-left: 40.6%;
+}
+.bodyIndex .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+  height: 18vh;
+  margin-top: 1vh;
+}
+.bodyIndex .footer .cajaLogo .cajUno .linkFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-top: 3.5vh;
+  padding-right: 2vh;
+}
+.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+  list-style: none;
+}
+.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  color: rgb(248, 174, 38);
+}
+.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+  color: none;
+}
+.bodyIndex .footer .cajaLogo .titleDerecho {
+  font-size: 0.8rem;
+  color: rgb(248, 174, 38);
+  text-align: center;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .bodyIndex .footer .cajaLogo {
+    padding-top: 1vh;
+    text-align: center;
+    width: 100%;
+  }
+  .bodyIndex .footer .cajaLogo .cajUno {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .bodyIndex .footer .cajaLogo .cajUno .logoMaps {
+    margin-left: 34.5% !important;
+    padding-top: 1vh;
+  }
+  .bodyIndex .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+    height: 16vh;
+    margin-top: 0;
+  }
+  .bodyIndex .footer .cajaLogo .cajUno .linkFooter {
+    width: 15%;
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+  }
+  .bodyIndex .footer .cajaLogo .cajUno .linkFooter .link {
+    padding-top: 1.5vh;
+  }
+  .bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+    font-size: 2.6rem;
+    padding-top: 1vh;
+  }
+  .bodyIndex .footer .cajaLogo .titleDerecho {
+    margin-top: 2.5vh;
+    font-size: 0.8rem;
+  }
+}
+
+.bodyInfo .HeaderInfo {
+  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  height: 64vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyInfo .HeaderInfo .headerCaj {
+  height: 100%;
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+  margin-left: 1.6%;
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+  height: 28vh;
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI {
+  width: 80%;
+  margin-left: 2%;
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 5vh;
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI {
+  color: rgb(248, 174, 38);
+  padding-left: 3.5%;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyInfo .HeaderInfo .headerCaj .title {
+  font-size: 3.2rem;
+  padding-top: 15vh;
+  font-weight: 600;
+  color: black;
+  font-style: oblique;
+}
+@media screen and (max-width: 768px) {
+  .bodyInfo .HeaderInfo {
+    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    height: auto;
+  }
+  .bodyInfo .HeaderInfo .headerCaj .navbar {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0% 0% 4% 4%;
+  }
+  .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+    margin-top: 1.5vh;
+  }
+  .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+    height: 16vh;
+    padding-left: 1vh;
+  }
+  .bodyInfo .HeaderInfo .headerCaj .title {
+    padding-top: 0;
+    font-size: 2.2rem;
+    margin-top: 18vh;
+    margin-bottom: 0;
+    padding-bottom: 5.5vh;
+  }
+}
+@media screen and (min-width: 769px) {
+  .bodyInfo .cajNavI {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.5% 30%/100%;
+    margin-left: 2.2%;
+    margin-top: 3.9%;
+    padding-right: 9.5%;
+    width: 94%;
+  }
+}
+.bodyInfo .infoMain {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyInfo .infoMain .container .titleMain {
+  padding-top: 2vh;
+  font-size: 2.4rem;
+  font-style: oblique;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.bodyInfo .infoMain .container .cajSec {
+  width: auto;
+  margin: auto;
+}
+.bodyInfo .infoMain .container .cajSec .secInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.bodyInfo .infoMain .container .cajSec .secInfo .titleHI {
+  font-size: 2rem;
+  padding-bottom: 3vh;
+}
+.bodyInfo .infoMain .container .cajSec .secInfo .titleH {
+  font-size: 2rem;
+  padding-bottom: 3vh;
+}
+.bodyInfo .infoMain .container .cajSec .cajImg {
+  width: auto;
+  padding: auto;
+}
+.bodyInfo .infoMain .container .cajSec .cajImg .secImg {
+  height: 30vh;
+  width: 60vh;
+  border-radius: 2%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+.bodyInfo .infoMain .container .cajSec .cajImg .secImgD {
+  height: 30vh;
+  width: 60vh;
+  border-radius: 2%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+.bodyInfo .infoMain .secMaps {
+  height: 48vh;
+}
+.bodyInfo .infoMain .secMaps .caja {
+  height: 100%;
+}
+.bodyInfo .infoMain .secMaps .caja .titleMaps {
+  padding-top: 2.5vh;
+  padding-bottom: 0.8vh;
+  padding-left: 1%;
+  font-size: 1.8rem;
+  margin-top: 4px;
+  background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+  color: azure;
+  font-style: oblique;
+}
+.bodyInfo .infoMain .secMaps .caja .maps {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .bodyInfo .infoMain .container .titleMain {
+    font-size: 1.8rem;
+  }
+  .bodyInfo .infoMain .container .cajSec .cajImg {
+    width: auto;
+  }
+  .bodyInfo .infoMain .container .cajSec .cajImg .secImg {
+    height: 30vh;
+    width: 40vh;
+    margin: 0;
+    border-radius: 2%;
+  }
+  .bodyInfo .infoMain .container .cajSec .cajImg .secImgD {
+    height: 30vh;
+    width: 40vh;
+    margin: 0;
+    border-radius: 2%;
+  }
+  .bodyInfo .infoMain .container .cajSec .secInfo .titleHI {
+    padding-top: 5vh;
+  }
+  .bodyInfo .infoMain .secMaps .caja .maps {
+    width: 90%;
+    height: 56%;
+    min-width: 0px;
+  }
+}
+.bodyInfo .footer {
+  list-style: none;
+  background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyInfo .footer .cajaLogo {
+  margin: auto;
+  padding-top: 1vh;
+  text-align: center;
+}
+.bodyInfo .footer .cajaLogo .cajUno {
+  padding-left: 10%;
+}
+.bodyInfo .footer .cajaLogo .cajUno .logoMaps {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-left: 40.6%;
+}
+.bodyInfo .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+  height: 18vh;
+  margin-top: 1vh;
+}
+.bodyInfo .footer .cajaLogo .cajUno .linkFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-top: 3.5vh;
+  padding-right: 2vh;
+}
+.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+  list-style: none;
+}
+.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  color: rgb(248, 174, 38);
+}
+.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+  color: none;
+}
+.bodyInfo .footer .cajaLogo .titleDerecho {
+  font-size: 0.8rem;
+  color: rgb(248, 174, 38);
+  text-align: center;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .bodyInfo .footer .cajaLogo {
+    padding-top: 1vh;
+    text-align: center;
+    width: 100%;
+  }
+  .bodyInfo .footer .cajaLogo .cajUno {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .bodyInfo .footer .cajaLogo .cajUno .logoMaps {
+    margin-left: 34.5% !important;
+    padding-top: 1vh;
+  }
+  .bodyInfo .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+    height: 16vh;
+    margin-top: 0;
+  }
+  .bodyInfo .footer .cajaLogo .cajUno .linkFooter {
+    width: 15%;
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+  }
+  .bodyInfo .footer .cajaLogo .cajUno .linkFooter .link {
+    padding-top: 1.5vh;
+  }
+  .bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+    font-size: 2.6rem;
+    padding-top: 1vh;
+  }
+  .bodyInfo .footer .cajaLogo .titleDerecho {
+    margin-top: 2.5vh;
+    font-size: 0.8rem;
+  }
+}
+
+.bodyAventura .HeaderInfo {
+  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  height: 64vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyAventura .HeaderInfo .headerCaj {
+  height: 100%;
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+  margin-left: 1.6%;
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+  height: 28vh;
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI {
+  width: 80%;
+  margin-left: 2%;
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 5vh;
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI {
+  color: rgb(248, 174, 38);
+  padding-left: 3.5%;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyAventura .HeaderInfo .headerCaj .title {
+  font-size: 3.2rem;
+  padding-top: 15vh;
+  font-weight: 600;
+  color: black;
+  font-style: oblique;
+}
+@media screen and (max-width: 768px) {
+  .bodyAventura .HeaderInfo {
+    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    height: auto;
+  }
+  .bodyAventura .HeaderInfo .headerCaj .navbar {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0% 0% 4% 4%;
+  }
+  .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+    margin-top: 1.5vh;
+  }
+  .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+    height: 16vh;
+    padding-left: 1vh;
+  }
+  .bodyAventura .HeaderInfo .headerCaj .title {
+    padding-top: 0;
+    font-size: 2.2rem;
+    margin-top: 18vh;
+    margin-bottom: 0;
+    padding-bottom: 5.5vh;
+  }
+}
+@media screen and (min-width: 769px) {
+  .bodyAventura .cajNavI {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.5% 30%/100%;
+    margin-left: 2.2%;
+    margin-top: 3.9%;
+    padding-right: 9.5%;
+    width: 94%;
+  }
+}
+.bodyAventura .mainAventura .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: auto;
+  padding-right: auto;
+}
+.bodyAventura .mainAventura .container .title {
+  font-size: 3rem;
+  font-weight: 600;
+  width: fit-content;
+  font-style: oblique;
+  text-decoration: underline;
+  margin: auto;
+  margin-top: 3vh;
+}
+.bodyAventura .mainAventura .container .Exp {
+  background-color: rgba(27, 27, 27, 0.15);
+  border-radius: 2%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bodyAventura .mainAventura .container .Exp .contImg {
+  width: 44vh;
+  height: 34vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyAventura .mainAventura .container .Exp .contImg .imgII {
+  width: 34vh;
+  height: 28vh;
+  margin: 3vh;
+  background-image: url(../assets/img/aventurate/perfil2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  border-radius: 4%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+.bodyAventura .mainAventura .container .Exp .contImg .imgIV {
+  width: 34vh;
+  height: 28vh;
+  margin: 3vh;
+  background-image: url(../assets/img/aventurate/perfil4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  border-radius: 4%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+.bodyAventura .mainAventura .container .Exp .contParrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+.bodyAventura .mainAventura .container .Exp .contParrafo .p {
+  font-size: 1.4rem;
+  margin: auto;
+}
+.bodyAventura .mainAventura .container .Exp .contParrafo .subTitle {
+  font-size: 1.6rem;
+}
+.bodyAventura .mainAventura .container .ExpI {
+  background-color: rgba(27, 27, 27, 0.5);
+  border-radius: 2%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bodyAventura .mainAventura .container .ExpI .contImg {
+  width: 44vh;
+  height: 34vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyAventura .mainAventura .container .ExpI .contImg .imgI {
+  width: 34vh;
+  height: 28vh;
+  margin: 3vh;
+  background-image: url(../assets/img/aventurate/perfil1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  border-radius: 4%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+.bodyAventura .mainAventura .container .ExpI .contImg .imgIII {
+  width: 34vh;
+  height: 28vh;
+  margin: 3vh;
+  background-image: url(../assets/img/aventurate/perfil3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  border-radius: 4%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+.bodyAventura .mainAventura .container .ExpI .contImg .imgV {
+  width: 34vh;
+  height: 28vh;
+  margin: 3vh;
+  background-image: url(../assets/img/aventurate/perfil5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  border-radius: 4%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+.bodyAventura .mainAventura .container .ExpI .contParrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+.bodyAventura .mainAventura .container .ExpI .contParrafo .p {
+  font-size: 1.4rem;
+  margin: auto;
+}
+.bodyAventura .mainAventura .container .ExpI .contParrafo .subTitle {
+  font-size: 1.6rem;
+}
+.bodyAventura .secMaps {
+  height: 48vh;
+}
+.bodyAventura .secMaps .caja {
+  height: 100%;
+}
+.bodyAventura .secMaps .caja .titleMaps {
+  padding-top: 2.5vh;
+  padding-bottom: 0.8vh;
+  padding-left: 1%;
+  font-size: 1.8rem;
+  margin-top: 4px;
+  background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+  color: azure;
+  font-style: oblique;
+}
+.bodyAventura .secMaps .caja .maps {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .bodyAventura .mainAventura .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .bodyAventura .mainAventura .container .title {
+    font-size: 2rem;
+  }
+  .bodyAventura .mainAventura .container .Exp .contParrafo .p {
+    text-align: center;
+    padding-left: 1.3vh;
+    padding-right: 1.3vh;
+  }
+  .bodyAventura .mainAventura .container .Exp .contParrafo .subTitle {
+    padding-top: 5vh;
+  }
+  .bodyAventura .mainAventura .container .ExpI .contParrafo .p {
+    text-align: center;
+    padding-left: 1vh;
+    padding-right: 1vh;
+  }
+  .bodyAventura .mainAventura .container .ExpI .contParrafo .subTitle {
+    padding-top: 5vh;
+  }
+  .bodyAventura .mainAventura .secMaps .caja .cajMaps .maps {
+    width: 90%;
+    min-width: 0px;
+  }
+}
+.bodyAventura .footer {
+  list-style: none;
+  background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyAventura .footer .cajaLogo {
+  margin: auto;
+  padding-top: 1vh;
+  text-align: center;
+}
+.bodyAventura .footer .cajaLogo .cajUno {
+  padding-left: 10%;
+}
+.bodyAventura .footer .cajaLogo .cajUno .logoMaps {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-left: 40.6%;
+}
+.bodyAventura .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+  height: 18vh;
+  margin-top: 1vh;
+}
+.bodyAventura .footer .cajaLogo .cajUno .linkFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-top: 3.5vh;
+  padding-right: 2vh;
+}
+.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+  list-style: none;
+}
+.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  color: rgb(248, 174, 38);
+}
+.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+  color: none;
+}
+.bodyAventura .footer .cajaLogo .titleDerecho {
+  font-size: 0.8rem;
+  color: rgb(248, 174, 38);
+  text-align: center;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .bodyAventura .footer .cajaLogo {
+    padding-top: 1vh;
+    text-align: center;
+    width: 100%;
+  }
+  .bodyAventura .footer .cajaLogo .cajUno {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .bodyAventura .footer .cajaLogo .cajUno .logoMaps {
+    margin-left: 34.5% !important;
+    padding-top: 1vh;
+  }
+  .bodyAventura .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+    height: 16vh;
+    margin-top: 0;
+  }
+  .bodyAventura .footer .cajaLogo .cajUno .linkFooter {
+    width: 15%;
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+  }
+  .bodyAventura .footer .cajaLogo .cajUno .linkFooter .link {
+    padding-top: 1.5vh;
+  }
+  .bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+    font-size: 2.6rem;
+    padding-top: 1vh;
+  }
+  .bodyAventura .footer .cajaLogo .titleDerecho {
+    margin-top: 2.5vh;
+    font-size: 0.8rem;
+  }
+}
+
+.bodyConciencia .HeaderInfo {
+  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  height: 64vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyConciencia .HeaderInfo .headerCaj {
+  height: 100%;
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+  margin-left: 1.6%;
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+  height: 28vh;
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI {
+  width: 80%;
+  margin-left: 2%;
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 5vh;
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI {
+  color: rgb(248, 174, 38);
+  padding-left: 3.5%;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyConciencia .HeaderInfo .headerCaj .title {
+  font-size: 3.2rem;
+  padding-top: 15vh;
+  font-weight: 600;
+  color: black;
+  font-style: oblique;
+}
+@media screen and (max-width: 768px) {
+  .bodyConciencia .HeaderInfo {
+    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    height: auto;
+  }
+  .bodyConciencia .HeaderInfo .headerCaj .navbar {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0% 0% 4% 4%;
+  }
+  .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+    margin-top: 1.5vh;
+  }
+  .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+    height: 16vh;
+    padding-left: 1vh;
+  }
+  .bodyConciencia .HeaderInfo .headerCaj .title {
+    padding-top: 0;
+    font-size: 2.2rem;
+    margin-top: 18vh;
+    margin-bottom: 0;
+    padding-bottom: 5.5vh;
+  }
+}
+@media screen and (min-width: 769px) {
+  .bodyConciencia .cajNavI {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.5% 30%/100%;
+    margin-left: 2.2%;
+    margin-top: 3.9%;
+    padding-right: 9.5%;
+    width: 94%;
+  }
+}
+.bodyConciencia .concienciaMain {
+  background-color: rgba(141, 125, 95, 0.012);
+}
+.bodyConciencia .concienciaMain .bannerCamping {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/concienticemos/003.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.bodyConciencia .concienciaMain .bannerCamping .banner {
+  width: 35%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.bodyConciencia .concienciaMain .contInfo {
+  width: auto;
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bodyConciencia .concienciaMain .contInfo .contImg {
+  padding: 0;
+  height: 40vh;
+  width: 62vh;
+  margin: auto;
+  background-image: url(../assets/img/concienticemos/reciclemos.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.bodyConciencia .concienciaMain .contInfo .parrafo {
+  padding: 0;
+}
+.bodyConciencia .concienciaMain .contInfo .parrafo .title {
+  font-style: oblique;
+  font-size: 2.6rem;
+}
+.bodyConciencia .concienciaMain .contInfo .parrafo .p {
+  width: fit-content;
+  padding: 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.bodyConciencia .concienciaMain .contInfoDos {
+  margin: 0;
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bodyConciencia .concienciaMain .contInfoDos .contImgDos {
+  height: 40vh;
+  width: 62vh;
+  margin: auto;
+  background-image: url(../assets/img/concienticemos/contaminacion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.bodyConciencia .concienciaMain .contInfoDos .parrafo {
+  padding: 0;
+}
+.bodyConciencia .concienciaMain .contInfoDos .parrafo .p {
+  width: fit-content;
+  padding: 0;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+.bodyConciencia .concienciaMain .contInfoIII {
+  height: auto;
+  margin: auto;
+  padding: 0;
+  width: auto;
+  background-color: rgba(255, 195, 104, 0.5607843137);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.bodyConciencia .concienciaMain .contInfoIII .contImgIzq {
+  height: 44vh;
+  width: 52vh;
+  background-image: url(../assets/img/concienticemos/camp.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  border-radius: 2%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 0;
+}
+.bodyConciencia .concienciaMain .contInfoIII .parrafo {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyConciencia .concienciaMain .contInfoIII .parrafo .title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
+  height: 44vh;
+  width: 52vh;
+  background-image: url(../assets/img/concienticemos/night-campfire-night.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  border-radius: 2%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 0;
+}
+.bodyConciencia .concienciaMain .secMaps {
+  height: 48vh;
+}
+.bodyConciencia .concienciaMain .secMaps .caja {
+  height: 100%;
+}
+.bodyConciencia .concienciaMain .secMaps .caja .titleMaps {
+  padding-top: 2.5vh;
+  padding-bottom: 0.8vh;
+  padding-left: 1%;
+  font-size: 1.8rem;
+  margin-top: 4px;
+  background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+  color: azure;
+  font-style: oblique;
+}
+.bodyConciencia .concienciaMain .secMaps .caja .maps {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .bodyConciencia .concienciaMain .bannerCamping {
+    margin-top: 1rem;
+  }
+  .bodyConciencia .concienciaMain .bannerCamping .banner {
+    width: 85%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .bodyConciencia .concienciaMain .contInfo {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+  }
+  .bodyConciencia .concienciaMain .contInfo .contImg {
+    height: 30vh;
+    width: 40vh;
+    margin: auto;
+    background-image: url(../assets/img/concienticemos/720\ reciclemos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .bodyConciencia .concienciaMain .contInfo .parrafo {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  .bodyConciencia .concienciaMain .contInfo .parrafo .title {
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: 1.6rem;
+  }
+  .bodyConciencia .concienciaMain .contInfo .parrafo .p {
+    font-size: 1.3rem;
+  }
+  .bodyConciencia .concienciaMain .contInfoDos {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .bodyConciencia .concienciaMain .contInfoDos .parrafo {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  .bodyConciencia .concienciaMain .contInfoDos .parrafo .p {
+    font-size: 1.3rem;
+  }
+  .bodyConciencia .concienciaMain .contInfoDos .contImgDos {
+    height: 30vh;
+    width: 40vh;
+    margin: auto;
+    background-image: url(../assets/img/concienticemos/720\ contaminacion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .bodyConciencia .concienciaMain .contInfoIII .contImgIzq {
+    background-image: url(../assets/img/concienticemos/720p\ camp.png);
+    border-radius: 0;
+  }
+  .bodyConciencia .concienciaMain .contInfoIII .parrafo .title {
+    font-size: 1.7rem;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem;
+    text-align: center;
+  }
+  .bodyConciencia .concienciaMain .contInfoIII .parrafo .p {
+    font-size: 1.3rem;
+  }
+  .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
+    background-image: url(../assets/img/concienticemos/720\ night-campfire-night.png);
+    border-radius: 0;
+  }
+  .bodyConciencia .concienciaMain .secMaps .caja .maps {
+    width: 90%;
+    height: 56%;
+    min-width: 0px;
+  }
+}
+.bodyConciencia .footer {
+  list-style: none;
+  background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyConciencia .footer .cajaLogo {
+  margin: auto;
+  padding-top: 1vh;
+  text-align: center;
+}
+.bodyConciencia .footer .cajaLogo .cajUno {
+  padding-left: 10%;
+}
+.bodyConciencia .footer .cajaLogo .cajUno .logoMaps {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-left: 40.6%;
+}
+.bodyConciencia .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+  height: 18vh;
+  margin-top: 1vh;
+}
+.bodyConciencia .footer .cajaLogo .cajUno .linkFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-top: 3.5vh;
+  padding-right: 2vh;
+}
+.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+  list-style: none;
+}
+.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  color: rgb(248, 174, 38);
+}
+.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+  color: none;
+}
+.bodyConciencia .footer .cajaLogo .titleDerecho {
+  font-size: 0.8rem;
+  color: rgb(248, 174, 38);
+  text-align: center;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .bodyConciencia .footer .cajaLogo {
+    padding-top: 1vh;
+    text-align: center;
+    width: 100%;
+  }
+  .bodyConciencia .footer .cajaLogo .cajUno {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .bodyConciencia .footer .cajaLogo .cajUno .logoMaps {
+    margin-left: 34.5% !important;
+    padding-top: 1vh;
+  }
+  .bodyConciencia .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+    height: 16vh;
+    margin-top: 0;
+  }
+  .bodyConciencia .footer .cajaLogo .cajUno .linkFooter {
+    width: 15%;
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+  }
+  .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link {
+    padding-top: 1.5vh;
+  }
+  .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+    font-size: 2.6rem;
+    padding-top: 1vh;
+  }
+  .bodyConciencia .footer .cajaLogo .titleDerecho {
+    margin-top: 2.5vh;
+    font-size: 0.8rem;
+  }
+}
+
+.bodyContac .HeaderInfo {
+  background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  height: 64vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyContac .HeaderInfo .headerCaj {
+  height: 100%;
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+  margin-left: 1.6%;
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+  height: 28vh;
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI {
+  width: 80%;
+  margin-left: 2%;
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 5vh;
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI {
+  color: rgb(248, 174, 38);
+  padding-left: 3.5%;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyContac .HeaderInfo .headerCaj .title {
+  font-size: 3.2rem;
+  padding-top: 15vh;
+  font-weight: 600;
+  color: black;
+  font-style: oblique;
+}
+@media screen and (max-width: 768px) {
+  .bodyContac .HeaderInfo {
+    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    height: auto;
+  }
+  .bodyContac .HeaderInfo .headerCaj .navbar {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0% 0% 4% 4%;
+  }
+  .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+    margin-top: 1.5vh;
+  }
+  .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+    height: 16vh;
+    padding-left: 1vh;
+  }
+  .bodyContac .HeaderInfo .headerCaj .title {
+    padding-top: 0;
+    font-size: 2.2rem;
+    margin-top: 18vh;
+    margin-bottom: 0;
+    padding-bottom: 5.5vh;
+  }
+}
+@media screen and (min-width: 769px) {
+  .bodyContac .cajNavI {
+    background-color: rgba(4, 107, 139, 0.5764705882);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.5% 30%/100%;
+    margin-left: 2.2%;
+    margin-top: 3.9%;
+    padding-right: 9.5%;
+    width: 94%;
+  }
+}
+.bodyContac .mainContac {
+  background-color: rgba(141, 125, 95, 0.082);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyContac .mainContac .contentT {
+  text-align: center;
+  height: auto;
+  margin-top: 12%;
+  margin-bottom: 12%;
+  padding-bottom: 3%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.726)), url(../assets/img/contacto/bg-contac.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.bodyContac .mainContac .contentT .title {
+  font-size: 2.4rem;
+  padding-top: 1.6%;
+  padding-bottom: 0.2%;
+  font-style: oblique;
+  color: rgb(248, 174, 38);
+}
+.bodyContac .mainContac .contentT .p {
+  padding-bottom: 1.6%;
+  font-size: 1.2rem;
+  color: azure;
+}
+.bodyContac .mainContac .contentT .formContac {
+  width: 48%;
+  background-color: rgba(182, 182, 182, 0.774);
+}
+.bodyContac .mainContac .contentT .formContac .formOption .options {
+  width: 97.5%;
+}
+.bodyContac .mainContac .contentT .formContac .CajID .cajEnviar {
+  text-align: end;
+}
+.bodyContac .mainContac .secMaps {
+  height: 48vh;
+}
+.bodyContac .mainContac .secMaps .caja {
+  height: 100%;
+}
+.bodyContac .mainContac .secMaps .caja .titleMaps {
+  padding-top: 2.5vh;
+  padding-bottom: 0.8vh;
+  padding-left: 1%;
+  font-size: 1.8rem;
+  margin-top: 4px;
+  background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+  color: azure;
+  font-style: oblique;
+}
+.bodyContac .mainContac .secMaps .caja .maps {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .bodyContac .mainContac .contentT {
+    padding-bottom: 30%;
+    margin: 0;
+  }
+  .bodyContac .mainContac .contentT .title {
+    font-size: 2rem;
+    padding: 4%;
+    padding-top: 6%;
+  }
+  .bodyContac .mainContac .contentT .p {
+    font-size: 1.1rem;
+    padding-bottom: 8%;
+  }
+  .bodyContac .mainContac .contentT .formContac {
+    width: 100%;
+    background-color: rgba(182, 182, 182, 0.774);
+  }
+  .bodyContac .mainContac .contentT .formContac .formOption .options {
+    width: 93.4%;
+  }
+  .bodyContac .mainContac .contentT .formContac .CajID .cajEnviar {
+    text-align: center;
+  }
+  .bodyContac .mainContac .secMaps .caja .cajMaps .maps {
+    width: 90%;
+    min-width: 0px;
+  }
+}
+.bodyContac .footer {
+  list-style: none;
+  background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyContac .footer .cajaLogo {
+  margin: auto;
+  padding-top: 1vh;
+  text-align: center;
+}
+.bodyContac .footer .cajaLogo .cajUno {
+  padding-left: 10%;
+}
+.bodyContac .footer .cajaLogo .cajUno .logoMaps {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-left: 40.6%;
+}
+.bodyContac .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+  height: 18vh;
+  margin-top: 1vh;
+}
+.bodyContac .footer .cajaLogo .cajUno .linkFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-top: 3.5vh;
+  padding-right: 2vh;
+}
+.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+  list-style: none;
+}
+.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  color: rgb(248, 174, 38);
+}
+.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+  color: none;
+}
+.bodyContac .footer .cajaLogo .titleDerecho {
+  font-size: 0.8rem;
+  color: rgb(248, 174, 38);
+  text-align: center;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .bodyContac .footer .cajaLogo {
+    padding-top: 1vh;
+    text-align: center;
+    width: 100%;
+  }
+  .bodyContac .footer .cajaLogo .cajUno {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .bodyContac .footer .cajaLogo .cajUno .logoMaps {
+    margin-left: 34.5% !important;
+    padding-top: 1vh;
+  }
+  .bodyContac .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+    height: 16vh;
+    margin-top: 0;
+  }
+  .bodyContac .footer .cajaLogo .cajUno .linkFooter {
+    width: 15%;
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+  }
+  .bodyContac .footer .cajaLogo .cajUno .linkFooter .link {
+    padding-top: 1.5vh;
+  }
+  .bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+    font-size: 2.6rem;
+    padding-top: 1vh;
+  }
+  .bodyContac .footer .cajaLogo .titleDerecho {
+    margin-top: 2.5vh;
+    font-size: 0.8rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

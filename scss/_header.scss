@@ -1,0 +1,96 @@
+.HeaderInfo{
+    background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    height: 64vh;
+    font-family: $tipografiaG;
+    font-weight: 400;
+    .headerCaj{
+        height: 100%;
+        .navbar{
+            .navigationI{
+                .contenedorLogoI{
+                    margin-left: 1.6%;
+                    .logoI{
+                        height: 28vh;
+                    }
+                }
+                .listNavI{
+                    width: 80%;
+                    margin-left: 2%;
+                    .cajNavI{
+                        .linkNavI{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            list-style: none;
+                            padding-left: 5vh;
+                            .linkI{
+                                color: $colorprimary;
+                                padding-left: 3.5%;
+                                font-size: 1.4rem;
+                                text-decoration: none;
+                                &:hover{
+                                    color: rgb(250, 211, 83);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .title{
+            font-size: 3.2rem;
+            padding-top: 15vh;
+            font-weight: 600;
+            color: black;
+            font-style: oblique;
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .HeaderInfo{
+        background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 80%;
+        height: auto;
+        .headerCaj{
+            .navbar{
+                background-color: #046b8b93;
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border-radius: 0% 0% 4% 4%;
+                .navigationI{
+                    .contenedorLogoI{
+                        margin-top: 1.5vh;
+                            .logoI{
+                            height: 16vh;
+                            padding-left: 1vh;
+                        }
+                    }
+                }    
+            }
+            .title{
+                padding-top: 0;
+                font-size: 2.2rem;
+                margin-top: 18vh;
+                margin-bottom: 0;
+                padding-bottom: 5.5vh;
+            }   
+        }
+    }     
+}
+@media screen and (min-width:769px) {
+    .cajNavI{
+        background-color: #046b8b93;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 0.5% 30% / 100%;
+        margin-left: 2.2%;
+        margin-top: 3.9%;
+        padding-right: 9.5%;
+        width: 94%;
+    }
+}

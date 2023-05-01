@@ -1,0 +1,110 @@
+@import "_variables";
+.bodyContac{
+    @import "_header";
+    .mainContac{
+        background-color: rgba(141, 125, 95, 0.082);
+        font-family: $tipografiaG;
+        font-weight: 400;
+        .contentT{
+            text-align: center;
+            height: auto;
+            margin-top: 12%;
+            margin-bottom: 12%;
+            padding-bottom: 3%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: 60%;  
+            background-image:linear-gradient(to top, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.726)), url(../assets/img/contacto/bg-contac.jpg);
+            background-size: cover;
+            background-position: center;
+            .title{
+                font-size: 2.4rem;
+                padding-top: 1.6%;
+                padding-bottom: 0.2%;
+                font-style: oblique;
+                color: $colorprimary;
+            }
+            .p{
+                padding-bottom: 1.6%;
+                font-size: 1.2rem;
+                color: azure;
+            }
+            .formContac{
+                width: 48%;
+                background-color: rgba(182, 182, 182, 0.774);
+                .formOption{
+                    .options{
+                        width: 97.5%;
+                    }
+                }
+                .CajID{
+                    .cajEnviar{
+                        text-align: end;
+                    }
+                }
+            }
+        }
+        .secMaps{
+            height: 48vh;
+            .caja{
+                height: 100%;
+                .titleMaps{
+                    padding-top: 2.5vh;
+                    padding-bottom: 0.8vh;
+                    padding-left: 1%;
+                    font-size: 1.8rem;
+                    margin-top: 4px;
+                    background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+                    color: azure;
+                    font-style: oblique;
+                }
+                .maps{
+                    width: 40%;
+                }
+            }
+        }
+    } 
+    @media screen and (max-width:768px) {
+        .mainContac{
+            .contentT{
+                padding-bottom: 30%;
+                margin: 0;
+                .title{
+                    font-size: 2rem;
+                    padding: 4%;
+                    padding-top: 6%;
+                }
+                .p{
+                    font-size: 1.1rem;
+                    padding-bottom: 8%;
+                }
+                .formContac{
+                    width: 100%;
+                    background-color: rgba(182, 182, 182, 0.774);
+                    .formOption{
+                        .options{
+                            width: 93.4%;
+                        }
+                    }
+                    .CajID{
+                        .cajEnviar{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .secMaps{
+                .caja{
+                    .cajMaps{
+                        .maps{
+                            width: 90%; 
+                            min-width:0px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    @import "_footer";
+}
+

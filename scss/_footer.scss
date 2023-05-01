@@ -1,0 +1,97 @@
+.footer{
+    list-style: none;
+    background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    height: 25vh;
+    font-family: $tipografiaG;
+    font-weight: 400;
+    .cajaLogo{
+        margin: auto;
+        padding-top: 1vh;
+        text-align: center;
+        .cajUno{
+            padding-left: 10%;
+            .logoMaps{
+                text-align: center;
+                width: fit-content;
+                margin: auto;
+                margin-left: 40.6%;
+                .footerLogo{
+                    height: 18vh;
+                    margin-top: 1vh;
+                }
+            }
+            .linkFooter{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: end;
+                padding-top: 3.5vh;
+                padding-right: 2vh;
+                .link{
+                    .linkRedes{
+                        list-style: none;
+                        .Icon{
+                            color: $colorprimary;
+                            &:hover{
+                                color: none;
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+        .titleDerecho{
+            font-size: 0.8rem;
+            color: rgb(248, 174, 38);
+            text-align: center;
+        }
+    }
+}
+@media screen and (min-width:0px) and (max-width:768px) {
+    .footer{
+        .cajaLogo{
+            padding-top: 1vh;
+            text-align: center;
+            width:100%;
+            .cajUno{
+                padding-left: 0 !important;
+                margin: 0;
+                .logoMaps{
+                    margin-left: 34.5% !important;
+                    padding-top: 1vh;
+                    .footerLogo{
+                        height: 16vh;
+                        margin-top: 0;
+                    }
+                }
+                .linkFooter{
+                    width: 15%;
+                    padding-top: 0.5vh;
+                    padding-right: 1vh; 
+                    .link{
+                        padding-top: 1.5vh;
+                        .linkRedes{
+                            .Icon{
+                                font-size: 2.6rem;
+                                padding-top: 1vh;
+                            }
+                        }
+                    }
+                }
+            }
+            .titleDerecho{
+                margin-top: 2.5vh;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+    
+    
+    
+    
+     
+     

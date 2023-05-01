@@ -11,8 +11,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 47%;
+    font-family: 'Inter', sans-serif;
     height: 100vh;
-    font-family: 'inter', sans-serif;
     font-weight: 400;
     padding: 0;
 }
@@ -497,7 +497,7 @@
 }
 .concienciaMain .contInfo .parrafo .title{
     font-style: oblique;
-    font-size: 2.2rem;
+    font-size: 2.6rem;
 }
 .concienciaMain .contInfo .parrafo{
     padding: 0;
@@ -506,13 +506,13 @@
     width: fit-content;
     padding: 0;
     font-weight:400;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .concienciaMain .contInfoIII{
     height: auto;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    width: 100%;
+    width: auto;
     background-color: #ffbc5fc5;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -530,7 +530,7 @@
 }
 .concienciaMain .contInfoIII .parrafo .title{
     font-weight:600;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 .concienciaMain .contInfoIII .parrafo{
     height: 44vh;
@@ -542,7 +542,7 @@
     padding-left: 3.2rem;
     padding-right: 3.2rem;
     font-weight:400;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .concienciaMain .contInfoIII .contImgDcho{
     width: fit-content;
@@ -582,7 +582,7 @@
 .mainContacto .contentT {
     position: relative;
     z-index: 1;
-    background-image: url('ruta/de/la/imagen.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.479)), url(../assets/img/contacto/bg-contac.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -598,7 +598,7 @@
 }
 .mainContacto .formContac{
     width: 48%;
-    background-color: rgba(182, 182, 182, 0.774);
+    
 }
 .mainContacto .contentT .title{
     font-size: 2.4rem;

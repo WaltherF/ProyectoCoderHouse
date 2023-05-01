@@ -9,87 +9,103 @@
     <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/3014996a69.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bodyContac">
     <header class="HeaderInfo text-center">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid navigationI">
-                <a class="navbar-brand contenedorLogoI" href="#"><img class="logoI"
-                        src="../assets/img/Log/Logo Aventure.png" alt="Aventura"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse listNavI" id="navbarNav">
-                    <ul class="navbar-nav cajNavI justify-content-end ms-5 py-3">
-                        <li class="nav-item linkNavI">
-                            <a class="nav-link linkI" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item linkNavI">
-                            <a class="nav-link linkI" href="./Info.html">Info</a>
-                        </li>
-                        <li class="nav-item linkNavI">
-                            <a class="nav-link linkI" href="./Nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item linkNavI">
-                            <a class="nav-link linkI" href="./Concienticemos.html">Concienticemos</a>
-                        </li>
-                        <li class="nav-item linkNavI">
-                            <a class="nav-link linkI" href="#">Contacto</a>
-                        </li>
-                    </ul>
+        <div class="headerCaj">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid navigationI">
+                    <a class="navbar-brand contenedorLogoI" href="#"><img class="logoI"
+                            src="../assets/img/Log/Logo Aventure.png" alt="Aventura">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse listNavI" id="navbarNav">
+                        <ul class="navbar-nav cajNavI justify-content-end ms-lg-5 py-3">
+                            <li class="nav-item linkNavI">
+                                <a class="nav-link linkI" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item linkNavI">
+                                <a class="nav-link linkI" href="./Info.html">Info</a>
+                            </li>
+                            <li class="nav-item linkNavI">
+                                <a class="nav-link linkI" href="./Aventurate.html">Aventurate</a>
+                            </li>
+                            <li class="nav-item linkNavI">
+                                <a class="nav-link linkI" href="./Concienticemos.html">Concienticemos</a>
+                            </li>
+                            <li class="nav-item linkNavI">
+                                <a class="nav-link linkI" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <h1 class="title">Ruta de los 7 Lagos</h1>
+            </nav>
+            <h1 class="title">Ruta de los 7 Lagos</h1>
+        </div>
     </header>
-    <main class="mainContacto">
-        <div class="container-fluid contentT"
-            style="background-image: url(&quot;https://www.villalaangosturaturismo.gob.ar/wp-content/uploads/2018/11/DSC00044.jpg&quot;);">
+    <main class="mainContac">
+        <div class="container-fluid contentT">
             <h2 class="title">Ingresa tus datos</h2>
             <p class="p">Te invitamos a comentarnos cuales fueron tus experiencias en esta magica aventura</p>
             <form class="container formContac py-3 px-3 mt-4">
                 <div class="row cajID">
                     <div class="col-12 col-lg-6 mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Francisco"
-                            required>
+                        <label for="name" class="form-label text-light">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Francisco"
+                        required>
                     </div>
                     <div class="col-12 col-lg-6 mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Apellido</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Borges"
-                            required>
+                        <label for="lastname" class="form-label text-light">Apellido</label>
+                        <input type="text" class="form-control" placeholder="Borges"
+                        required>
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com" required>
+                    <label for="email" class="form-label text-light">Email</label>
+                    <input type="email" class="form-control"
+                    placeholder="name@example.com" required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Experiencias</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea required>
-                    </div>
-                    <div class="row-cols-1 row-cols-lg-4 text-end cajEnviar">
-                        <input class="enviar" type="submit">
-                    </div>
-                </form>
+                    <label for="message" class="form-label text-light">Experiencias</label>
+                    <textarea class="form-control" rows="6" required></textarea>
+                </div>
+                <div class="row justify-content-center mb-3 formOption">
+                    <label class="form-label text-light" for="opciones">Visitio visitado</label>
+                    <select class="options form-control mb-2" id="opciones" name="opciones">
+                        <option value="opcion1">Seleccione una opcion</option>
+                        <option value="opcion1">Lago Lacar</option>
+                        <option value="opcion2">lago Machonico</option>
+                        <option value="opcion3">Lago Hermoso</option>
+                        <option value="opcion3">Lago Villarino y Falkner</option>
+                        <option value="opcion3">Lago Escondido</option>
+                        <option value="opcion3">Lago Espejo</option>
+                        <option value="opcion3">Lago Correntoso</option>
+                        <option value="opcion3">Recorri los 7 lagos</option>
+                    </select>
+                </div>
+                <div class="row-cols-1 row-cols-lg-4 text-end cajEnviar">
+                    <input class="enviar" type="submit">
+                </div>
+            </form>
+        </div>
+        <hr>
+        <section class="container-fluid secMaps pb-1 pb-5">
+            <div class="row caja text-center justify-content-center">
+                <div class="cajT">
+                    <h3 class="titleMaps">...110km de Aventura...</h3>
+                </div>
+                <div class="col-12 h-75 cajMaps pt-4">
+                    <iframe class="maps h-100"
+                        src="https://www.google.com/maps/d/embed?mid=1HdXjRUJhP9QiIiLVXvuF-dq9z4ommcs&ehbc=2E312F"></iframe>
+                </div>
             </div>
-            <hr>
-            <section class="container-fluid secMaps pb-1 mb-5">
-                <div class="row caja text-center justify-content-center">
-                    <div class="cajT">
-                        <h3 class="titleMaps">...110km de Aventura...</h3>
-                    </div>
-                    <div class="col-12 h-75 cajMaps pt-4">
-                        <iframe class="maps h-100"
-                            src="https://www.google.com/maps/d/embed?mid=1HdXjRUJhP9QiIiLVXvuF-dq9z4ommcs&ehbc=2E312F"></iframe>
-                    </div>
-                </div>
-            </section>
+        </section>
         </main>   
         <footer class="container-fluid aling-item-end footer">
             <div class="row">
@@ -100,13 +116,17 @@
                             target="_blank"><img class="footerLogo 
                                 fa-beat-fade" src="../assets/img/Log/Logo-Maps.ico" alt="logo"></a>
                         <div class="col-sm-4 col-lg-2 linkFooter">
-                            <li class="linkRedes pb-3"><a href="https://www.instagram.com/rutadelos7lagos/"
-                                target="_blank"><i class="Icon fa-brands fa-instagram fa-4x"></i></a></li>
-                            <li class="linkRedes"><a href="https://web.whatsapp.com/" target="_blank"><i
-                                 class="Icon fa-brands fa-whatsapp fa-4x"></i></a></li>
+                            <ul class="link">
+                                <li class="linkRedes pb-3"><a href="https://www.instagram.com/rutadelos7lagos/"
+                                    target="_blank"><i class="Icon fa-brands fa-instagram fa-4x"></i></a>
+                                </li>
+                                <li class="linkRedes"><a href="https://web.whatsapp.com/" target="_blank"><i
+                                    class="Icon fa-brands fa-whatsapp fa-4x"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <h6 class="titleDerecho">© Todos los derechos reservados - Facundo Walther</h6>
+                    <h3 class="titleDerecho">© Todos los derechos reservados - Facundo Walther</h3>
                 </div>
             </div>
         </footer>  

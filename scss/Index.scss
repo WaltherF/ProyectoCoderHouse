@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');@import "_variables";
+@import "_mpcero";
+.bodyIndex{
+    .Header{
+        background: url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 47%;
+        font-family: $tipografiaG; 
+        height: 100vh;
+        font-weight: 400;
+        padding: 0;
+        .navbar{
+            .navigation{
+                .contenedorLogo{
+                    margin-left: 1.6%;
+                    .logo{
+                        height: 28vh;
+                    }
+                }
+                .listNav{
+                    width: 80%;
+                    margin-left: 2%;
+                    .cajNav{
+                        .linkNav{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            list-style: none;
+                            padding-left: 5vh;
+                            .link{
+                                color: $colorprimary;
+                                padding-left: 3.5%;
+                                font-size: 1.4rem;
+                                text-decoration: none;
+                                &:hover{
+                                    color: rgb(250, 211, 83);
+                                }
+                            }
+                        }
+                    } 
+                } 
+            }
+        }
+        .section{
+            .column{
+                .title{
+                    font-size: 3rem;
+                    padding-top: 2.5vh;
+                    font-weight: 600;
+                    color: black;
+                    font-style: oblique;
+                }
+                .p{
+                    font-size: 1.7rem;
+                    margin-top: 11vh;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 91%;
+                    text-align: center;
+                    color: $colorprimary;
+                }
+                .viajar{
+                    padding-top: 5vh;
+                    font-size: 2.4rem;
+                    font-weight: 600;
+                    color: $colorprimary;
+                    font-style: oblique;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) {
+        .Header{
+            background-image: linear-gradient(to top, #0000002c, #00000054,  #00000000), url(../assets/img/Fondo/lou-levit-0lHIMPhRtN8-unsplash.jpg) !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-y: 80%;
+            height: auto;
+            .navbar{
+                background-color: #046b8b93;
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border-radius: 0% 0% 4% 4%;
+                .navigation{
+                    .contenedorLogo{
+                        margin-top: 1.5vh;
+                            .logo{
+                            height: 16vh;
+                            padding-left: 1vh;
+                        }
+                    }
+                }
+            }
+            .section{
+                text-align: center;
+                margin-top: 7vh;
+                width: 100%;
+                .column{
+                    .title{
+                        font-size: 2.2rem;
+                        font-weight: 600;
+                    }
+                    .p{
+                        font-size: 1.4rem;
+                        padding-top: 7vh;
+                        color: $colorprimary;
+                    }
+                    .viajar{
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        padding-top: 2vh;
+                        padding-bottom: 3vh;
+                        color: $colorprimary;
+                    }
+                }
+            }
+        }    
+    }
+    @media screen and (min-width:769px) {
+        .Header .cajNav{  
+            background-color: #046b8b93;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 0.5% 30% / 100%;
+            margin-left: 2.2%;
+            margin-top: 3.9%;
+            padding-right: 9.5%;
+            width: 94%;
+        }
+        .Header .section{
+            text-align: center;
+            margin-top: 135px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 50%;
+            width: 85%;
+            background-color: #ffffff10;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 4% 60% / 210%;
+        }
+    }
+    .main{
+        font-family: $tipografiaG;
+        font-weight: 400;
+        padding: 0;
+        .card-group{
+            padding-bottom: 4%;
+            padding-left: 0;
+            padding-right: 0;
+            .boxC{
+                margin-right: 0;
+                margin-left: 0;
+                .card{
+                    text-align: center;
+                    border: 1.2px solid black;
+                    padding: 0.8%;
+                    width: 41vh !important;
+                    height: 39.5vh;
+                    object-fit: cover;
+                    background-color: rgba(168, 153, 126, 0.13);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .img{
+                        width: 100%;
+                        height: 28vh;
+                        object-fit: cover;
+                        padding-bottom: 0.2vh;
+                    }
+                    .card-body{
+                        .titleTarjeta{
+                            font-weight: 400;
+                            color: black;
+                            font-size: 1.6rem;
+                            font-style: oblique;
+                            text-decoration: underline;
+                            &:hover{
+                                color: rgb(209, 127, 3);
+                                font-size: 1.8rem;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .secMaps{
+            height: 48vh;
+            .caja{
+                height: 100%;
+                .titleMaps{
+                    padding-top: 2.5vh;
+                    padding-bottom: 0.8vh;
+                    padding-left: 1%;
+                    font-size: 1.8rem;
+                    margin-top: 4px;
+                    background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+                    color: azure;
+                    font-style: oblique;
+                }
+                .maps{
+                    width: 40%;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:768px) {
+        .main{
+            .card-group{
+                .boxC{
+                    .card{
+                        margin-bottom: 4vh;
+                        height: auto;
+                        width: auto;
+                        padding: 1vh;
+                        border: 0.5px solid black;
+                        .img{
+                            width: 38vh;
+                            height: 24vh;
+                        }
+                        .card-body{
+                            .titleTarjeta{
+                                padding-bottom: 1.5vh;
+                            }
+                        }
+                    }
+                }
+            }
+            .secMaps{
+                .caja{
+                    .maps{
+                        width: 90%;
+                        height: 56%;
+                        min-width:0px;
+                    }
+                }
+            }
+        }
+    }
+    @import "_footer";
+}
+@import "info";
+@import "aventurate";
+@import "concienticemos";
+@import "contacto";

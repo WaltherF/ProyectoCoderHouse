@@ -1,0 +1,199 @@
+@import "_variables";
+.bodyAventura{
+    @import "_header";
+    .mainAventura{
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: auto;
+            padding-right: auto;
+            .title{
+                font-size: 3rem;
+                font-weight: 600;
+                width: fit-content;         
+                font-style: oblique;
+                text-decoration: underline;
+                margin: auto;
+                margin-top: 3vh;
+            }
+            .Exp{
+                background-color: rgba(27, 27, 27, 0.150);
+                border-radius: 2%;
+                margin-left: 0;
+                margin-right: 0;
+                .contImg{
+                    width: 44vh;
+                    height: 34vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .imgII{
+                        width: 34vh;
+                        height: 28vh;
+                        margin: 3vh;
+                        background-image: url(../assets/img/aventurate/perfil2.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position-x: center;
+                        border-radius: 4%;
+                        box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+                    }
+                    .imgIV{
+                        width: 34vh;
+                        height: 28vh;
+                        margin: 3vh;
+                        background-image: url(../assets/img/aventurate/perfil4.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position-x: center;
+                        border-radius: 4%;
+                        box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+                    }
+                }
+                .contParrafo{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 2.5vh;
+                    margin-bottom: 2.5vh;
+                    .p{
+                        font-size: 1.4rem;
+                        margin: auto;
+                    }
+                    .subTitle{
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+            .ExpI{
+                background-color: rgba(27, 27, 27, 0.500);
+                border-radius: 2%;
+                margin-left: 0;
+                margin-right: 0;
+                .contImg{
+                    width: 44vh;
+                    height: 34vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .imgI{
+                        width: 34vh;
+                        height: 28vh;
+                        margin: 3vh;
+                        background-image: url(../assets/img/aventurate/perfil1.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position-x: center;
+                        border-radius: 4%;
+                        box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+                    }
+                    .imgIII{
+                        width: 34vh;
+                        height: 28vh;
+                        margin: 3vh;
+                        background-image: url(../assets/img/aventurate/perfil3.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position-x: center;
+                        border-radius: 4%;
+                        box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+                    }
+                    .imgV{
+                        width: 34vh;
+                        height: 28vh;
+                        margin: 3vh;
+                        background-image: url(../assets/img/aventurate/perfil5.jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position-x: center;
+                        border-radius: 4%;
+                        box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+                    }
+                }
+                .contParrafo{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 2.5vh;
+                    margin-bottom: 2.5vh;
+                    .p{
+                        font-size: 1.4rem;
+                        margin: auto;
+                    }
+                    .subTitle{
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+    .secMaps{
+        height: 48vh;
+        .caja{
+            height: 100%;
+            .titleMaps{
+                padding-top: 2.5vh;
+                padding-bottom: 0.8vh;
+                padding-left: 1%;
+                font-size: 1.8rem;
+                margin-top: 4px;
+                background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+                color: azure;
+                font-style: oblique;
+            }
+            .maps{
+                width: 40%;
+            }
+        }
+    }
+    @media screen and (max-width:768px) {
+        .mainAventura{
+            .container{
+                padding-left: 0;
+                padding-right: 0;
+                .title{
+                    font-size: 2rem;
+                }
+                .Exp{
+                    .contParrafo{
+                        .p{
+                            text-align: center;
+                            padding-left: 1.3vh;
+                            padding-right: 1.3vh;
+                        }
+                        .subTitle{
+                            padding-top: 5vh;
+                        }  
+                    }
+                }
+                .ExpI{
+                    .contParrafo{
+                        .p{
+                            text-align: center;
+                            padding-left: 1vh;
+                            padding-right: 1vh;
+                        }
+                        .subTitle{
+                            padding-top: 5vh;
+                        }  
+                    }
+                }
+            }
+            .secMaps{
+                .caja{
+                    .cajMaps{
+                        .maps{
+                            width: 90%; 
+                            min-width:0px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    @import "_footer";
+}

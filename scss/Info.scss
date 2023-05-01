@@ -1,0 +1,118 @@
+@import "_variables";
+.bodyInfo{
+    @import "_header";
+    .infoMain{
+        font-family: $tipografiaG;
+        font-weight: 400;
+        .container{
+            .titleMain{
+                padding-top: 2vh;
+                font-size: 2.4rem;
+                font-style: oblique;
+                font-weight: 500;
+                text-decoration: underline;
+            }
+            .cajSec{
+                width: auto;
+                margin: auto;
+                .secInfo{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 3%;
+                    padding-right: 3%;
+                    .titleHI{
+                        font-size: 2rem;
+                        padding-bottom: 3vh;
+                    }
+                    .titleH{
+                        font-size: 2rem;
+                        padding-bottom: 3vh;
+                    }
+                }
+                .cajImg{
+                    width: auto;
+                    padding: auto;
+                    .secImg{
+                        height: 30vh;
+                        width: 60vh;
+                        
+                        border-radius: 2%;
+                        object-fit: cover;
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+                    }
+                    .secImgD{
+                        height: 30vh;
+                        width: 60vh;
+                        
+                        border-radius: 2%;
+                        object-fit: cover;
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+                    }    
+                }
+            }
+        }
+        .secMaps{
+            height: 48vh;
+            .caja{
+                height: 100%;
+                .titleMaps{
+                    padding-top: 2.5vh;
+                    padding-bottom: 0.8vh;
+                    padding-left: 1%;
+                    font-size: 1.8rem;
+                    margin-top: 4px;
+                    background-image: linear-gradient(to right, #00324c, #02415e, #035271, #046383, #047496, #047496, #047496, #047496, #046383, #035271, #02415e, #00324c);
+                    color: azure;
+                    font-style: oblique;
+                }
+                .maps{
+                    width: 40%;
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .infoMain{
+            .container{
+                .titleMain{
+                    font-size: 1.8rem;
+                }
+                .cajSec{
+                    .cajImg{
+                        width: auto;
+                        .secImg{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            border-radius: 2%;
+                        }   
+                        .secImgD{
+                            height: 30vh;
+                            width: 40vh;
+                            margin: 0;
+                            border-radius: 2%;
+                        }
+                    }
+                    .secInfo{
+                        .titleHI{
+                            padding-top: 5vh;
+                        }
+                    }
+                }
+            }
+            .secMaps{
+                .caja{
+                    .maps{
+                        width: 90%;
+                        height: 56%;
+                        min-width:0px;
+                    }
+                }
+            }
+        }
+    }
+    @import "_footer";
+}
