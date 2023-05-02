@@ -13,8 +13,8 @@
                 text-decoration: underline;
             }
             .cajSec{
-                width: auto;
-                margin: auto;
+                margin-left: 0;
+                margin-right: 0;
                 .secInfo{
                     display: map-get($flexMap, flex);
                     flex-direction: map-get($flexMap, column);
@@ -32,8 +32,10 @@
                     }
                 }
                 .cajImg{
+                    margin: auto;
                     width: auto;
                     padding: auto;
+                    @include flexbox(row,center,center);
                     .imgZI{
                         height: 30vh;
                         width: 60vh;

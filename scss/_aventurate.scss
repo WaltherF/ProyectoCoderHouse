@@ -24,7 +24,6 @@
                     width: 44vh;
                     height: 34vh;
                     @include flexbox(row, center, center);
-                    
                     .imgII{
                         width: 34vh;
                         height: 28vh;
@@ -99,9 +98,9 @@
         }
     }
     .secMaps{
-        height: 48vh;
+        height: fit-content;
         .caja{
-            height: 100%;
+            height: auto;
             .titleMaps{
                 padding-top: 2.5vh;
                 padding-bottom: 0.8vh;
@@ -113,7 +112,8 @@
                 font-style: oblique;
             }
             .maps{
-                width: 40%;
+                width: auto;
+                height: 40vh;
             }
         }
     }
@@ -123,7 +123,7 @@
                 padding-left: 0;
                 padding-right: 0;
                 .title{
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                 }
                 .Exp{
                     @include flexbox(column,center,center);
@@ -159,8 +159,8 @@
                 .caja{
                     .cajMaps{
                         .maps{
-                            width: 90%; 
-                            min-width:0px;
+                            width: 94%; 
+                            height: auto
                         }
                     }
                 }

@@ -34,13 +34,16 @@
   list-style: none;
   padding-left: 5vh;
 }
-.bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .link {
+.bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .link, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I {
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
   font-weight: 600;
 }
-.bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .link:hover {
+.bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .link:hover, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I {
   color: rgb(250, 211, 83);
 }
 .bodyIndex .Header .section .column .title {
@@ -258,13 +261,13 @@
   padding-top: 3.5vh;
   padding-right: 2vh;
 }
-.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes, .bodyIndex .footer .cajaLogo .cajUno .linkFooter .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .footer .cajaLogo .cajUno .linkFooter .I .linkRedes {
   list-style: none;
 }
-.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyIndex .footer .cajaLogo .cajUno .linkFooter .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
   color: rgb(248, 174, 38);
 }
-.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+.bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover, .bodyIndex .footer .cajaLogo .cajUno .linkFooter .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon:hover, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon:hover {
   color: none;
 }
 .bodyIndex .footer .cajaLogo .titleDerecho {
@@ -295,10 +298,10 @@
     padding-top: 0.5vh;
     padding-right: 1vh;
   }
-  .bodyIndex .footer .cajaLogo .cajUno .linkFooter .link {
+  .bodyIndex .footer .cajaLogo .cajUno .linkFooter .link, .bodyIndex .footer .cajaLogo .cajUno .linkFooter .Header .navbar .navigation .listNav .cajNav .linkNav .I, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .footer .cajaLogo .cajUno .linkFooter .I {
     padding-top: 1.5vh;
   }
-  .bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  .bodyIndex .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyIndex .footer .cajaLogo .cajUno .linkFooter .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
     font-size: 2.6rem;
     padding-top: 1vh;
   }
@@ -337,14 +340,26 @@
   list-style: none;
   padding-left: 5vh;
 }
-.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI {
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
 }
-.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
+  color: rgb(250, 211, 83);
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII {
+  color: rgb(250, 211, 83);
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV {
+  color: rgb(250, 211, 83);
+}
+.bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV {
   color: rgb(250, 211, 83);
 }
 .bodyInfo .HeaderInfo .headerCaj .navbar .iconCollap {
@@ -411,8 +426,8 @@
   text-decoration: underline;
 }
 .bodyInfo .infoMain .container .cajSec {
-  width: auto;
-  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 .bodyInfo .infoMain .container .cajSec .secInfo {
   display: flex;
@@ -431,8 +446,13 @@
   padding-bottom: 3vh;
 }
 .bodyInfo .infoMain .container .cajSec .cajImg {
+  margin: auto;
   width: auto;
   padding: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .bodyInfo .infoMain .container .cajSec .cajImg .imgZI, .bodyInfo .infoMain .container .cajSec .cajImg .imgZIV, .bodyInfo .infoMain .container .cajSec .cajImg .imgZIII, .bodyInfo .infoMain .container .cajSec .cajImg .imgZII {
   height: 30vh;
@@ -588,13 +608,13 @@
   padding-top: 3.5vh;
   padding-right: 2vh;
 }
-.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes, .bodyInfo .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyInfo .footer .cajaLogo .cajUno .linkFooter .I .linkRedes {
   list-style: none;
 }
-.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyInfo .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyInfo .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
   color: rgb(248, 174, 38);
 }
-.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+.bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover, .bodyInfo .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon:hover, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyInfo .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon:hover {
   color: none;
 }
 .bodyInfo .footer .cajaLogo .titleDerecho {
@@ -625,10 +645,10 @@
     padding-top: 0.5vh;
     padding-right: 1vh;
   }
-  .bodyInfo .footer .cajaLogo .cajUno .linkFooter .link {
+  .bodyInfo .footer .cajaLogo .cajUno .linkFooter .link, .bodyInfo .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyInfo .footer .cajaLogo .cajUno .linkFooter .I {
     padding-top: 1.5vh;
   }
-  .bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  .bodyInfo .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyInfo .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyInfo .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
     font-size: 2.6rem;
     padding-top: 1vh;
   }
@@ -667,14 +687,26 @@
   list-style: none;
   padding-left: 5vh;
 }
-.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI {
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
 }
-.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
+  color: rgb(250, 211, 83);
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII {
+  color: rgb(250, 211, 83);
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV {
+  color: rgb(250, 211, 83);
+}
+.bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV {
   color: rgb(250, 211, 83);
 }
 .bodyAventura .HeaderInfo .headerCaj .navbar .iconCollap {
@@ -836,10 +868,10 @@
   font-size: 1.6rem;
 }
 .bodyAventura .secMaps {
-  height: 48vh;
+  height: fit-content;
 }
 .bodyAventura .secMaps .caja {
-  height: 100%;
+  height: auto;
 }
 .bodyAventura .secMaps .caja .titleMaps {
   padding-top: 2.5vh;
@@ -852,7 +884,8 @@
   font-style: oblique;
 }
 .bodyAventura .secMaps .caja .maps {
-  width: 40%;
+  width: auto;
+  height: 40vh;
 }
 @media screen and (max-width: 768px) {
   .bodyAventura .mainAventura .container {
@@ -860,7 +893,7 @@
     padding-right: 0;
   }
   .bodyAventura .mainAventura .container .title {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .bodyAventura .mainAventura .container .Exp {
     display: flex;
@@ -894,8 +927,8 @@
     padding-top: 5vh;
   }
   .bodyAventura .mainAventura .secMaps .caja .cajMaps .maps {
-    width: 90%;
-    min-width: 0px;
+    width: 94%;
+    height: auto;
   }
 }
 .bodyAventura .footer {
@@ -934,13 +967,13 @@
   padding-top: 3.5vh;
   padding-right: 2vh;
 }
-.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes, .bodyAventura .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyAventura .footer .cajaLogo .cajUno .linkFooter .I .linkRedes {
   list-style: none;
 }
-.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyAventura .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyAventura .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
   color: rgb(248, 174, 38);
 }
-.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+.bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover, .bodyAventura .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon:hover, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyAventura .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon:hover {
   color: none;
 }
 .bodyAventura .footer .cajaLogo .titleDerecho {
@@ -971,10 +1004,10 @@
     padding-top: 0.5vh;
     padding-right: 1vh;
   }
-  .bodyAventura .footer .cajaLogo .cajUno .linkFooter .link {
+  .bodyAventura .footer .cajaLogo .cajUno .linkFooter .link, .bodyAventura .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyAventura .footer .cajaLogo .cajUno .linkFooter .I {
     padding-top: 1.5vh;
   }
-  .bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  .bodyAventura .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyAventura .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyAventura .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
     font-size: 2.6rem;
     padding-top: 1vh;
   }
@@ -1013,14 +1046,26 @@
   list-style: none;
   padding-left: 5vh;
 }
-.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI {
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
 }
-.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
+  color: rgb(250, 211, 83);
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII {
+  color: rgb(250, 211, 83);
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV {
+  color: rgb(250, 211, 83);
+}
+.bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV {
   color: rgb(250, 211, 83);
 }
 .bodyConciencia .HeaderInfo .headerCaj .navbar .iconCollap {
@@ -1326,13 +1371,13 @@
   padding-top: 3.5vh;
   padding-right: 2vh;
 }
-.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes, .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .I .linkRedes {
   list-style: none;
 }
-.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
   color: rgb(248, 174, 38);
 }
-.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+.bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover, .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon:hover, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon:hover {
   color: none;
 }
 .bodyConciencia .footer .cajaLogo .titleDerecho {
@@ -1363,10 +1408,10 @@
     padding-top: 0.5vh;
     padding-right: 1vh;
   }
-  .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link {
+  .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link, .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .I {
     padding-top: 1.5vh;
   }
-  .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyConciencia .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
     font-size: 2.6rem;
     padding-top: 1vh;
   }
@@ -1405,14 +1450,26 @@
   list-style: none;
   padding-left: 5vh;
 }
-.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI {
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
   color: rgb(248, 174, 38);
   padding-left: 3.5%;
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
 }
-.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover {
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
+  color: rgb(250, 211, 83);
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII {
+  color: rgb(250, 211, 83);
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV {
+  color: rgb(250, 211, 83);
+}
+.bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV {
   color: rgb(250, 211, 83);
 }
 .bodyContac .HeaderInfo .headerCaj .navbar .iconCollap {
@@ -1592,13 +1649,13 @@
   padding-top: 3.5vh;
   padding-right: 2vh;
 }
-.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes {
+.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes, .bodyContac .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyContac .footer .cajaLogo .cajUno .linkFooter .I .linkRedes {
   list-style: none;
 }
-.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyContac .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyContac .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
   color: rgb(248, 174, 38);
 }
-.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover {
+.bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover, .bodyContac .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon:hover, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyContac .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon:hover {
   color: none;
 }
 .bodyContac .footer .cajaLogo .titleDerecho {
@@ -1629,10 +1686,10 @@
     padding-top: 0.5vh;
     padding-right: 1vh;
   }
-  .bodyContac .footer .cajaLogo .cajUno .linkFooter .link {
+  .bodyContac .footer .cajaLogo .cajUno .linkFooter .link, .bodyContac .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyContac .footer .cajaLogo .cajUno .linkFooter .I {
     padding-top: 1.5vh;
   }
-  .bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon {
+  .bodyContac .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyContac .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyContac .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
     font-size: 2.6rem;
     padding-top: 1vh;
   }

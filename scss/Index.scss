@@ -39,6 +39,10 @@
                                     color: rgb(250, 211, 83);
                                 }
                             }
+                            .I{
+                                @extend .link;
+                                color: rgb(250, 211, 83);
+                            }
                         }
                     } 
                 } 

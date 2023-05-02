@@ -36,6 +36,22 @@
                                     color: rgb(250, 211, 83);
                                 }
                             }
+                            .InfoII{
+                                @extend .linkI;
+                                color: rgb(250, 211, 83);
+                            }
+                            .AventIII{
+                                @extend .linkI;
+                                color: rgb(250, 211, 83);
+                            }
+                            .ConcIV{
+                                @extend .linkI;
+                                color: rgb(250, 211, 83);
+                            }
+                            .ContV{
+                                @extend .linkI;
+                                color: rgb(250, 211, 83);
+                            }
                         }
                     }
                 }
