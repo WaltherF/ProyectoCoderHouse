@@ -98,9 +98,9 @@
         }
     }
     .secMaps{
-        height: fit-content;
+        height: 48vh;
         .caja{
-            height: auto;
+            height: 100%;
             .titleMaps{
                 padding-top: 2.5vh;
                 padding-bottom: 0.8vh;
@@ -112,8 +112,7 @@
                 font-style: oblique;
             }
             .maps{
-                width: auto;
-                height: 40vh;
+                width: 40%;
             }
         }
     }
@@ -157,11 +156,10 @@
             }
             .secMaps{
                 .caja{
-                    .cajMaps{
-                        .maps{
-                            width: 94%; 
-                            height: auto
-                        }
+                    .maps{
+                        width: 90%;
+                        height: 56%;
+                        min-width:0px;
                     }
                 }
             }

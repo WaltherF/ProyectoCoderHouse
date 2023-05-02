@@ -868,10 +868,10 @@
   font-size: 1.6rem;
 }
 .bodyAventura .secMaps {
-  height: fit-content;
+  height: 48vh;
 }
 .bodyAventura .secMaps .caja {
-  height: auto;
+  height: 100%;
 }
 .bodyAventura .secMaps .caja .titleMaps {
   padding-top: 2.5vh;
@@ -884,8 +884,7 @@
   font-style: oblique;
 }
 .bodyAventura .secMaps .caja .maps {
-  width: auto;
-  height: 40vh;
+  width: 40%;
 }
 @media screen and (max-width: 768px) {
   .bodyAventura .mainAventura .container {
@@ -926,9 +925,10 @@
   .bodyAventura .mainAventura .container .ExpI .contParrafo .subTitle {
     padding-top: 5vh;
   }
-  .bodyAventura .mainAventura .secMaps .caja .cajMaps .maps {
-    width: 94%;
-    height: auto;
+  .bodyAventura .mainAventura .secMaps .caja .maps {
+    width: 90%;
+    height: 56%;
+    min-width: 0px;
   }
 }
 .bodyAventura .footer {
