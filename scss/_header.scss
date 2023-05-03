@@ -104,14 +104,27 @@
     }     
 }
 @media screen and (min-width:769px) {
-    .cajNavI{
-        background-color: rgba(64, 93, 105, 0.350);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border-radius: 0.5% 30% / 100%;
-        margin-left: 2.2%;
-        margin-top: 3.9%;
-        padding-right: 9.5%;
-        width: 94%;
+    .HeaderInfo{
+        .navigationI{
+            .contenedorLogoI{
+                .logoI{
+                    &:hover{
+                        animation: shake 1s forwards;
+                    }
+                }
+            }
+            .listNavI{
+                .cajNavI{  
+                    background-color: rgba(64, 93, 105, 0.350);
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(10px);
+                    border-radius: 0.5% 30% / 100%;
+                    margin-left: 2.2%;
+                    margin-top: 3.9%;
+                    padding-right: 9.5%;
+                    width: 94%;
+                }
+            }
+        }
     }
 }

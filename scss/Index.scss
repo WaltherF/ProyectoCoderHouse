@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');
 @import "variables";
 @import "mixin";
+@import "animaciones";
 @import "mpcero";
 .bodyIndex{
     .Header{
@@ -129,27 +130,40 @@
         }    
     }
     @media screen and (min-width:769px) {
-        .Header .cajNav{  
-            background-color: rgba(64, 93, 105, 0.350);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-radius: 0.5% 30% / 100%;
-            margin-left: 2.2%;
-            margin-top: 3.9%;
-            padding-right: 9.5%;
-            width: 94%;
-        }
-        .Header .section{
-            text-align: center;
-            margin-top: 135px;
-            margin-left: auto;
-            margin-right: auto;
-            height: 50%;
-            width: 85%;
-            background-color: #ffffff10;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border-radius: 4% 60% / 210%;
+        .Header{
+            .navigation{
+                .contenedorLogo{
+                    .logo{
+                        &:hover{
+                            animation: shake 1s forwards;
+                        }
+                    }
+                }
+                .listNav{
+                    .cajNav{  
+                        background-color: rgba(64, 93, 105, 0.350);
+                        backdrop-filter: blur(10px);
+                        -webkit-backdrop-filter: blur(10px);
+                        border-radius: 0.5% 30% / 100%;
+                        margin-left: 2.2%;
+                        margin-top: 3.9%;
+                        padding-right: 9.5%;
+                        width: 94%;
+                    }
+                }
+            }
+            .section{
+                text-align: center;
+                margin-top: 135px;
+                margin-left: auto;
+                margin-right: auto;
+                height: 50%;
+                width: 85%;
+                background-color: #ffffff10;
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border-radius: 4% 60% / 210%;
+            }
         }
     }
     .main{
@@ -220,6 +234,7 @@
     @media screen and (max-width:768px) {
         .main{
             .card-group{
+                overflow: hidden;
                 .boxC{
                     .card{
                         margin-bottom: 4vh;

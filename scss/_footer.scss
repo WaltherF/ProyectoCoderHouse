@@ -21,6 +21,8 @@
                 .footerLogo{
                     height: 18vh;
                     margin-top: 1vh;
+                    animation: jumpAndRotate infinite 4s ease-in-out;
+                    animation-delay: 1s;
                 }
             }
             .linkFooter{
