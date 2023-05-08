@@ -127,7 +127,7 @@
   }
   .bodyIndex .Header .section {
     text-align: center;
-    margin-top: 7vh;
+    margin-top: 8vh;
     width: 100%;
   }
   .bodyIndex .Header .section .column .title {
@@ -137,10 +137,10 @@
   }
   .bodyIndex .Header .section .column .p {
     font-size: 1.4rem;
-    padding-top: 7vh;
+    padding-top: 5vh;
     color: white;
   }
-  .bodyIndex .Header .section .column .viajar {
+  .bodyIndex .Header .section .column .motivar .viajar {
     font-size: 1.9rem;
     font-weight: 600;
     padding-top: 2vh;
