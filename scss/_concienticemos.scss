@@ -25,11 +25,11 @@
                 height: 40vh;
                 width: 62vh;
                 margin: auto;
-                background-image: url(../assets/img/concienticemos/reciclemos.webp);
+                background-image: url(../assets/img/concienticemos/720\ reciclemos.png);
                 background-size: cover;
                 background-repeat: no-repeat;
                 border-radius: 2%;
-                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);  
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
             }
             .parrafo{
                 padding: 0;
@@ -57,7 +57,7 @@
                 height: 40vh;
                 width: 62vh;
                 margin: auto;
-                background-image: url(../assets/img/concienticemos/contaminacion.jpg);
+                background-image: url(../assets/img/concienticemos/720\ contaminacion.png);
                 background-size: cover;
                 background-repeat: no-repeat;
                 border-radius: 2%;
@@ -84,7 +84,7 @@
             .contImgIzq{
                 height: 44vh;
                 width: 52vh;
-                background-image: url(../assets/img/concienticemos/camp.jpg);
+                background-image: url(../assets/img/concienticemos/720p\ camp.png);
                 background-size: cover;
                 background-position-x: 50%;
                 background-repeat: no-repeat;
@@ -106,7 +106,7 @@
             }
             .contImgDcho{
                 @extend .contImgIzq;
-                background-image: url(../assets/img/concienticemos/night-campfire-night.jpg);
+                background-image: url(../assets/img/concienticemos/720\ night-campfire-night.png);
                 background-size: cover;
             }
         }
@@ -134,7 +134,7 @@
         .concienciaMain{
             .bannerCamping{
                 margin-top: 1rem;
-                background-image: linear-gradient(to right, #00000050, #00000000,  #00000050), url(../assets/img/contacto/hojaH.png);
+                background-image: linear-gradient(to right, #00000050, #00000000,  #00000050), url(../assets/img/concienticemos/hojaH.png);
                 .banner{
                     width: 85%;
                     padding-top: 1rem;
@@ -146,14 +146,8 @@
                 margin-top: 1rem;
                 margin-bottom: 0;
                 .contImg{
-                height: 30vh;
-                width: 40vh;
-                margin: auto;
-                background-image: url(../assets/img/concienticemos/720\ reciclemos.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                border-radius: 2%;
-                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                    height: 30vh;
+                    width: 40vh;
                 }
                 .parrafo{
                     padding-left: 1.4rem;
@@ -187,17 +181,10 @@
                 .contImgDos{
                     height: 30vh;
                     width: 40vh;
-                    margin: auto;
-                    background-image: url(../assets/img/concienticemos/720\ contaminacion.png);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    border-radius: 2%;
-                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
                 }
             }
             .contInfoIII{
                 .contImgIzq{
-                    background-image: url(../assets/img/concienticemos/720p\ camp.png);
                     border-radius: 0;
                 }
                 .parrafo{
@@ -214,7 +201,6 @@
                     }
                 }
                 .contImgDcho{
-                    background-image: url(../assets/img/concienticemos/720\ night-campfire-night.png);
                     border-radius: 0;
                 }
             }

@@ -502,18 +502,18 @@
   border-radius: 2%;
   object-fit: cover;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
-  background-image: url(../assets/img/fotospaisajes/lacar.jpg);
+  background-image: url(../assets/img/fotospaisajes/lacar800.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .bodyInfo .infoMain .container .cajSec .cajImg .imgZII {
-  background-image: url(../assets/img/fotospaisajes/hermoso.webp);
+  background-image: url(../assets/img/fotospaisajes/800pxhermoso.png);
 }
 .bodyInfo .infoMain .container .cajSec .cajImg .imgZIII {
   background-image: url(../assets/img/fotospaisajes/Escondido.jpg);
 }
 .bodyInfo .infoMain .container .cajSec .cajImg .imgZIV {
-  background-image: url(../assets/img/fotospaisajes/correntoso.jpg);
+  background-image: url(../assets/img/fotospaisajes/800pxcorrentoso.png);
   background-position-y: 35%;
 }
 .bodyInfo .infoMain .container .cajSec .cajImg .imgDI, .bodyInfo .infoMain .container .cajSec .cajImg .imgDIII, .bodyInfo .infoMain .container .cajSec .cajImg .imgDII {
@@ -522,16 +522,16 @@
   border-radius: 2%;
   object-fit: cover;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
-  background-image: url(../assets/img/fotospaisajes/machonico.jpeg);
+  background-image: url(../assets/img/fotospaisajes/800machonico.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 60%;
 }
 .bodyInfo .infoMain .container .cajSec .cajImg .imgDII {
-  background-image: url(../assets/img/fotospaisajes/falkner.jpg);
+  background-image: url(../assets/img/fotospaisajes/800falkner.png);
 }
 .bodyInfo .infoMain .container .cajSec .cajImg .imgDIII {
-  background-image: url(../assets/img/fotospaisajes/espejo.jpg);
+  background-image: url(../assets/img/fotospaisajes/800espejo.png);
   background-position-y: 16%;
 }
 .bodyInfo .infoMain .secMaps {
@@ -567,14 +567,14 @@
     height: 30vh;
     width: 40vh;
     margin: 0;
-    background-image: url(../assets/img/fotospaisajes/lacar800.png);
+    background-image: url(../assets/img/fotospaisajes/600lacar.png);
     background-position-x: 35%;
   }
   .bodyInfo .infoMain .container .cajSec .cajImg .imgZII {
     height: 30vh;
     width: 40vh;
     margin: 0;
-    background-image: url(../assets/img/fotospaisajes/800pxhermoso.png);
+    background-image: url(../assets/img/fotospaisajes/600hermoso.png);
   }
   .bodyInfo .infoMain .container .cajSec .cajImg .imgZIII {
     height: 30vh;
@@ -587,26 +587,26 @@
     height: 30vh;
     width: 40vh;
     margin: 0;
-    background-image: url(../assets/img/fotospaisajes/800pxcorrentoso.png);
+    background-image: url(../assets/img/fotospaisajes/600correntoso.png);
   }
   .bodyInfo .infoMain .container .cajSec .cajImg .imgDI, .bodyInfo .infoMain .container .cajSec .cajImg .imgDII, .bodyInfo .infoMain .container .cajSec .cajImg .imgDIII {
     height: 30vh;
     width: 40vh;
     margin: 0;
-    background-image: url(../assets/img/fotospaisajes/800machonico.png);
+    background-image: url(../assets/img/fotospaisajes/600machonico.png);
     background-position-x: 65%;
   }
   .bodyInfo .infoMain .container .cajSec .cajImg .imgDII {
     height: 30vh;
     width: 40vh;
     margin: 0;
-    background-image: url(../assets/img/fotospaisajes/falkner.jpg);
+    background-image: url(../assets/img/fotospaisajes/600falkner.png);
   }
   .bodyInfo .infoMain .container .cajSec .cajImg .imgDIII {
     height: 30vh;
     width: 40vh;
     margin: 0;
-    background-image: url(../assets/img/fotospaisajes/800espejo.png);
+    background-image: url(../assets/img/fotospaisajes/600espejo.png);
   }
   .bodyInfo .infoMain .container .cajSec .secInfo .titleHI {
     padding-top: 5vh;
@@ -1201,7 +1201,7 @@
   height: 40vh;
   width: 62vh;
   margin: auto;
-  background-image: url(../assets/img/concienticemos/reciclemos.webp);
+  background-image: url(../assets/img/concienticemos/720\ reciclemos.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 2%;
@@ -1233,7 +1233,7 @@
   height: 40vh;
   width: 62vh;
   margin: auto;
-  background-image: url(../assets/img/concienticemos/contaminacion.jpg);
+  background-image: url(../assets/img/concienticemos/720\ contaminacion.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 2%;
@@ -1260,7 +1260,7 @@
 .bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
   height: 44vh;
   width: 52vh;
-  background-image: url(../assets/img/concienticemos/camp.jpg);
+  background-image: url(../assets/img/concienticemos/720p\ camp.png);
   background-size: cover;
   background-position-x: 50%;
   background-repeat: no-repeat;
@@ -1281,7 +1281,7 @@
   font-size: 2rem;
 }
 .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
-  background-image: url(../assets/img/concienticemos/night-campfire-night.jpg);
+  background-image: url(../assets/img/concienticemos/720\ night-campfire-night.png);
   background-size: cover;
 }
 .bodyConciencia .concienciaMain .secMaps {
@@ -1306,7 +1306,7 @@
 @media screen and (max-width: 768px) {
   .bodyConciencia .concienciaMain .bannerCamping {
     margin-top: 1rem;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/contacto/hojaH.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3137254902), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3137254902)), url(../assets/img/concienticemos/hojaH.png);
   }
   .bodyConciencia .concienciaMain .bannerCamping .banner {
     width: 85%;
@@ -1321,12 +1321,6 @@
   .bodyConciencia .concienciaMain .contInfo .contImg {
     height: 30vh;
     width: 40vh;
-    margin: auto;
-    background-image: url(../assets/img/concienticemos/720\ reciclemos.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 2%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
   .bodyConciencia .concienciaMain .contInfo .parrafo {
     padding-left: 1.4rem;
@@ -1360,15 +1354,8 @@
   .bodyConciencia .concienciaMain .contInfoDos .contImgDos {
     height: 30vh;
     width: 40vh;
-    margin: auto;
-    background-image: url(../assets/img/concienticemos/720\ contaminacion.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 2%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   }
   .bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
-    background-image: url(../assets/img/concienticemos/720p\ camp.png);
     border-radius: 0;
   }
   .bodyConciencia .concienciaMain .contInfoIII .parrafo .title {
@@ -1383,7 +1370,6 @@
     padding-bottom: 1rem;
   }
   .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
-    background-image: url(../assets/img/concienticemos/720\ night-campfire-night.png);
     border-radius: 0;
   }
   .bodyConciencia .concienciaMain .secMaps .caja .maps {
