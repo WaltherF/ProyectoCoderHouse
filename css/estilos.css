@@ -1356,6 +1356,7 @@
     width: 40vh;
   }
   .bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
+    background-image: url(../assets/img/concienticemos/510p\ camp.png);
     border-radius: 0;
   }
   .bodyConciencia .concienciaMain .contInfoIII .parrafo .title {
@@ -1370,6 +1371,7 @@
     padding-bottom: 1rem;
   }
   .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
+    background-image: url(../assets/img/concienticemos/510\ night-campfire-night.png);
     border-radius: 0;
   }
   .bodyConciencia .concienciaMain .secMaps .caja .maps {
