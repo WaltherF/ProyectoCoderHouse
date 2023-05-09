@@ -1751,4 +1751,282 @@
   }
 }
 
+.bodyError .HeaderInfo {
+  background: url(../assets/img/backgroundheader/1920.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  height: 64vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyError .HeaderInfo .headerCaj {
+  height: 100%;
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+  margin-left: 1.6%;
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+  height: 28vh;
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI {
+  width: 80%;
+  margin-left: 2%;
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 5vh;
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
+  color: rgb(248, 174, 38);
+  padding-left: 3.5%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
+  color: rgb(250, 211, 83);
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII {
+  color: rgb(250, 211, 83);
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII {
+  color: rgb(250, 211, 83);
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV {
+  color: rgb(250, 211, 83);
+}
+.bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV {
+  color: rgb(250, 211, 83);
+}
+.bodyError .HeaderInfo .headerCaj .navbar .iconCollap {
+  background-color: rgb(248, 174, 38);
+}
+.bodyError .HeaderInfo .headerCaj .title {
+  font-size: 3.2rem;
+  padding-top: 15vh;
+  font-weight: 600;
+  color: black;
+  font-style: oblique;
+}
+@media screen and (max-width: 768px) {
+  .bodyError .HeaderInfo {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7529411765), rgba(0, 0, 0, 0.1294117647), rgba(0, 0, 0, 0)), url(../assets/img/backgroundheader/paisaje.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: auto;
+  }
+  .bodyError .HeaderInfo .headerCaj .navbar {
+    background-color: rgba(4, 107, 139, 0.0666666667);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0% 0% 4% 4%;
+  }
+  .bodyError .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI {
+    margin-top: 1.5vh;
+  }
+  .bodyError .HeaderInfo .headerCaj .navbar .navigationI .contenedorLogoI .logoI {
+    height: 16vh;
+    padding-left: 1vh;
+  }
+  .bodyError .HeaderInfo .headerCaj .title {
+    padding-top: 0;
+    font-size: 2.2rem;
+    margin-top: 22vh;
+    margin-bottom: 0;
+    padding-bottom: 4vh;
+    color: rgb(248, 174, 38);
+  }
+}
+@media screen and (min-width: 769px) {
+  .bodyError .HeaderInfo .navigationI .contenedorLogoI .logoI:hover {
+    animation: shake 1s forwards;
+  }
+  .bodyError .HeaderInfo .navigationI .listNavI .cajNavI {
+    background-color: rgba(64, 93, 105, 0.35);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0.5% 30%/100%;
+    margin-left: 2.2%;
+    margin-top: 3.9%;
+    padding-right: 9.5%;
+    width: 94%;
+  }
+}
+.bodyError .errorMain {
+  height: auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7215686275), rgba(0, 0, 0, 0.5215686275), rgba(0, 0, 0, 0.2470588235)), url(../assets/img/Error404/down-g12ee5a1fd_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bodyError .errorMain .cont404 {
+  height: 110vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.bodyError .errorMain .cont404 .cIzq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 70%;
+  width: 65%;
+  padding-left: 3%;
+  padding-right: 5%;
+}
+.bodyError .errorMain .cont404 .cIzq .t2 {
+  font-size: 3.1rem;
+  color: rgb(248, 174, 38);
+}
+.bodyError .errorMain .cont404 .cIzq .t3 {
+  font-size: 2.8rem;
+  color: white;
+}
+.bodyError .errorMain .cont404 .cIzq p {
+  font-size: 1.8rem;
+  margin-top: 0.4rem;
+  margin-bottom: 5rem;
+  color: white;
+}
+.bodyError .errorMain .cont404 .cIzq .linkB {
+  font-size: 1.2rem;
+  color: rgb(248, 174, 38);
+}
+.bodyError .errorMain .cont404 .cDrha {
+  height: 70%;
+}
+.bodyError .footer {
+  list-style: none;
+  background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25vh;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.bodyError .footer .cajaLogo {
+  margin: auto;
+  padding-top: 1vh;
+  text-align: center;
+}
+.bodyError .footer .cajaLogo .cajUno {
+  padding-left: 10%;
+}
+.bodyError .footer .cajaLogo .cajUno .logoMaps {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  margin-left: 40.6%;
+}
+.bodyError .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+  height: 18vh;
+  margin-top: 1vh;
+  animation: jumpAndRotate infinite 4s ease-in-out;
+  animation-delay: 1s;
+}
+.bodyError .footer .cajaLogo .cajUno .linkFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-top: 3.5vh;
+  padding-right: 2vh;
+}
+.bodyError .footer .cajaLogo .cajUno .linkFooter .link .linkRedes, .bodyError .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyError .footer .cajaLogo .cajUno .linkFooter .I .linkRedes {
+  list-style: none;
+}
+.bodyError .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyError .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyError .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
+  color: rgb(248, 174, 38);
+}
+.bodyError .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon:hover, .bodyError .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon:hover, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyError .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon:hover {
+  color: none;
+}
+.bodyError .footer .cajaLogo .titleDerecho {
+  font-size: 0.8rem;
+  color: rgb(248, 174, 38);
+  text-align: center;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .bodyError .footer .cajaLogo {
+    padding-top: 1vh;
+    text-align: center;
+    width: 100%;
+  }
+  .bodyError .footer .cajaLogo .cajUno {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+  .bodyError .footer .cajaLogo .cajUno .logoMaps {
+    margin-left: 34.5% !important;
+    padding-top: 1vh;
+  }
+  .bodyError .footer .cajaLogo .cajUno .logoMaps .footerLogo {
+    height: 16vh;
+    margin-top: 0;
+  }
+  .bodyError .footer .cajaLogo .cajUno .linkFooter {
+    width: 15%;
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+  }
+  .bodyError .footer .cajaLogo .cajUno .linkFooter .link, .bodyError .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyError .footer .cajaLogo .cajUno .linkFooter .I {
+    padding-top: 1.5vh;
+  }
+  .bodyError .footer .cajaLogo .cajUno .linkFooter .link .linkRedes .Icon, .bodyError .footer .cajaLogo .cajUno .linkFooter .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I .linkRedes .Icon, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .bodyError .footer .cajaLogo .cajUno .linkFooter .I .linkRedes .Icon {
+    font-size: 2.6rem;
+    padding-top: 1vh;
+  }
+  .bodyError .footer .cajaLogo .titleDerecho {
+    margin-top: 2.5vh;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+  .bodyError .errorMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 64vh;
+    background-position-x: 44%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7215686275), rgba(0, 0, 0, 0.5215686275), rgba(0, 0, 0, 0.2470588235)), url(../assets/img/Error404/forest-g3129b590f_640.jpg);
+  }
+  .bodyError .errorMain .cont404 {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .bodyError .errorMain .cont404 .cIzq {
+    height: 100%;
+    width: initial;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .bodyError .errorMain .cont404 .cIzq .t2 {
+    font-size: 1.6rem;
+  }
+  .bodyError .errorMain .cont404 .cIzq .t3 {
+    font-size: 1.6rem;
+  }
+  .bodyError .errorMain .cont404 .cIzq p {
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 5rem;
+  }
+  .bodyError .errorMain .cont404 .cIzq .linkB {
+    font-size: 1rem;
+  }
+}
+
 /*# sourceMappingURL=estilos.css.map */

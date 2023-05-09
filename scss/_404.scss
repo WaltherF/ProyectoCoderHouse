@@ -1,0 +1,78 @@
+@import "variables";
+.bodyError{
+    @import "_header";
+    .errorMain{
+        height: auto;
+        background-image: linear-gradient(to right, #000000b8, #00000085,  #0000003f), url(../assets/img/Error404/down-g12ee5a1fd_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        .cont404{
+            height: 110vh;
+            @include flexbox (row, start, center); 
+            .cIzq{
+                @include flexbox (column, center, start);
+                height: 70%;
+                width: 65%;
+                padding-left: 3%;
+                padding-right: 5%;
+                .t2{
+                    font-size: 3.1rem;
+                    color: $colorprimary;
+                }
+                .t3{
+                    font-size: 2.8rem;
+                    color: white;
+                }
+                p{
+                    font-size: 1.8rem;
+                    margin-top: 0.4rem;
+                    margin-bottom: 5rem;
+                    color: white;
+                }
+                .linkB{
+                    font-size: 1.2rem;
+                    color: $colorprimary;
+                }
+            }
+            .cDrha{
+                height: 70%;
+            }
+        }
+    }
+    @import "_footer";
+}
+@media screen and (min-width:0) and (max-width:768px) {
+    .bodyError{
+        .errorMain{
+            @include flexbox (column, center, center);
+            height: 64vh;
+            background-position-x: 44%;
+            background-image: linear-gradient(to right, #000000b8, #00000085,  #0000003f), url(../assets/img/Error404/forest-g3129b590f_640.jpg);
+            .cont404{
+                height: auto;
+                @include flexbox (row, center, center); 
+                .cIzq{
+                    height: 100%;
+                    width: initial;
+                    padding-left: 6%;
+                    padding-right: 6%;
+                    .t2{
+                        font-size: 1.6rem;
+                    }
+                    .t3{
+                        font-size: 1.6rem;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                        margin-top: 0.4rem;
+                        margin-bottom: 5rem;
+                    }
+                    .linkB{
+                        font-size: 1rem;              
+                    }
+                }
+            }
+        }
+    }
+}
