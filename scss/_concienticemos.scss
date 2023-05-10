@@ -185,8 +185,9 @@
             }
             .contInfoIII{
                 .contImgIzq{
-                    height: auto;
-                    width: max-content;
+                    margin: auto;
+                    height: 34vh;
+                    width: 45vh;
                     background-image: url(../assets/img/concienticemos/510p\ camp.png);
                     background-position-y: center;
                     border-radius: 0;
@@ -205,6 +206,9 @@
                     }
                 }
                 .contImgDcho{
+                    margin: auto;
+                    height: 34vh;
+                    width: 45vh;
                     background-image: url(../assets/img/concienticemos/510\ night-campfire-night.png);
                     background-position-y: bottom;
                     border-radius: 0;
