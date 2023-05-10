@@ -69,6 +69,7 @@
   padding-left: 3.5%;
   font-size: 1.4rem;
   font-weight: 600;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .link:hover, .bodyIndex .Header .navbar .navigation .listNav .cajNav .linkNav .I:hover {
   color: rgb(250, 211, 83);
@@ -80,8 +81,9 @@
   font-size: 3rem;
   padding-top: 2.5vh;
   font-weight: 600;
-  color: black;
+  color: rgb(248, 174, 38);
   font-style: oblique;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.9);
 }
 .bodyIndex .Header .section .column .p {
   font-size: 1.7rem;
@@ -90,14 +92,15 @@
   margin-right: auto;
   width: 91%;
   text-align: center;
-  color: rgb(248, 174, 38);
+  color: white;
 }
 .bodyIndex .Header .section .column .viajar {
   padding-top: 5vh;
   font-size: 2.4rem;
   font-weight: 600;
-  color: black;
+  color: rgb(248, 174, 38);
   font-style: oblique;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.9);
 }
 @media screen and (max-width: 768px) {
   .bodyIndex .Header {
@@ -389,6 +392,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyInfo .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
   color: rgb(250, 211, 83);
@@ -410,10 +414,11 @@
 }
 .bodyInfo .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
-  padding-top: 15vh;
+  padding-top: 17vh;
   font-weight: 600;
   color: rgb(248, 174, 38);
   font-style: oblique;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.9);
 }
 @media screen and (max-width: 768px) {
   .bodyInfo .HeaderInfo {
@@ -465,10 +470,9 @@
   font-weight: 400;
 }
 .bodyInfo .infoMain .container .titleMain {
-  padding-top: 2vh;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-style: oblique;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: underline;
 }
 .bodyInfo .infoMain .container .cajSec {
@@ -745,6 +749,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyAventura .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
   color: rgb(250, 211, 83);
@@ -766,10 +771,11 @@
 }
 .bodyAventura .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
-  padding-top: 15vh;
+  padding-top: 17vh;
   font-weight: 600;
   color: rgb(248, 174, 38);
   font-style: oblique;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.9);
 }
 @media screen and (max-width: 768px) {
   .bodyAventura .HeaderInfo {
@@ -830,7 +836,6 @@
   width: fit-content;
   font-style: oblique;
   text-decoration: underline;
-  margin: auto;
   margin-top: 3vh;
 }
 .bodyAventura .mainAventura .container .Exp {
@@ -1110,6 +1115,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyConciencia .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
   color: rgb(250, 211, 83);
@@ -1131,10 +1137,11 @@
 }
 .bodyConciencia .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
-  padding-top: 15vh;
+  padding-top: 17vh;
   font-weight: 600;
   color: rgb(248, 174, 38);
   font-style: oblique;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.9);
 }
 @media screen and (max-width: 768px) {
   .bodyConciencia .HeaderInfo {
@@ -1257,6 +1264,8 @@
 .bodyConciencia .concienciaMain .contInfoIII {
   height: auto;
   margin: auto;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
   width: auto;
   background-color: rgba(255, 195, 104, 0.5607843137);
   backdrop-filter: blur(10px);
@@ -1288,7 +1297,6 @@
 }
 .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
   background-image: url(../assets/img/concienticemos/720\ night-campfire-night.png);
-  background-size: cover;
 }
 .bodyConciencia .concienciaMain .secMaps {
   height: 48vh;
@@ -1367,11 +1375,10 @@
   }
   .bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
     margin: auto;
-    height: 34vh;
-    width: 45vh;
+    height: 30vh;
+    width: 40vh;
     background-image: url(../assets/img/concienticemos/510p\ camp.png);
     background-position-y: center;
-    border-radius: 0;
   }
   .bodyConciencia .concienciaMain .contInfoIII .parrafo .title {
     font-size: 1.6rem;
@@ -1386,11 +1393,11 @@
   }
   .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
     margin: auto;
-    height: 34vh;
-    width: 45vh;
+    height: 30vh;
+    width: 40vh;
     background-image: url(../assets/img/concienticemos/510\ night-campfire-night.png);
     background-position-y: bottom;
-    border-radius: 0;
+    border-radius: 2%;
   }
   .bodyConciencia .concienciaMain .secMaps .caja .cajMaps .maps {
     width: 90%;
@@ -1521,6 +1528,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyContac .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
   color: rgb(250, 211, 83);
@@ -1542,10 +1550,11 @@
 }
 .bodyContac .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
-  padding-top: 15vh;
+  padding-top: 17vh;
   font-weight: 600;
   color: rgb(248, 174, 38);
   font-style: oblique;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.9);
 }
 @media screen and (max-width: 768px) {
   .bodyContac .HeaderInfo {
@@ -1805,6 +1814,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .linkI:hover, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ContV:hover, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .ConcIV:hover, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .AventIII:hover, .bodyError .HeaderInfo .headerCaj .navbar .navigationI .listNavI .cajNavI .linkNavI .InfoII:hover {
   color: rgb(250, 211, 83);
@@ -1826,10 +1836,11 @@
 }
 .bodyError .HeaderInfo .headerCaj .title {
   font-size: 3.2rem;
-  padding-top: 15vh;
+  padding-top: 17vh;
   font-weight: 600;
   color: rgb(248, 174, 38);
   font-style: oblique;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.9);
 }
 @media screen and (max-width: 768px) {
   .bodyError .HeaderInfo {

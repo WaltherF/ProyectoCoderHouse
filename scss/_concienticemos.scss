@@ -76,6 +76,8 @@
         .contInfoIII{
             height: auto;
             margin: auto;
+            padding-top: 1.5vh;
+            padding-bottom: 1.5vh;
             width: auto;
             background-color: #ffc3688f;
             backdrop-filter: blur(10px);
@@ -107,7 +109,6 @@
             .contImgDcho{
                 @extend .contImgIzq;
                 background-image: url(../assets/img/concienticemos/720\ night-campfire-night.png);
-                background-size: cover;
             }
         }
         .secMaps{
@@ -188,11 +189,10 @@
                 padding-bottom: 3vh;
                 .contImgIzq{
                     margin: auto;
-                    height: 34vh;
-                    width: 45vh;
+                    height: 30vh;
+                    width: 40vh;
                     background-image: url(../assets/img/concienticemos/510p\ camp.png);
                     background-position-y: center;
-                    border-radius: 0;
                 }
                 .parrafo{
                     .title{
@@ -209,11 +209,11 @@
                 }
                 .contImgDcho{
                     margin: auto;
-                    height: 34vh;
-                    width: 45vh;
+                    height: 30vh;
+                    width: 40vh;
                     background-image: url(../assets/img/concienticemos/510\ night-campfire-night.png);
                     background-position-y: bottom;
-                    border-radius: 0;
+                    border-radius: 2%;
                 }
             }
             .secMaps{
