@@ -10,9 +10,8 @@
         background-repeat: no-repeat;
         background-position-y: 47%;
         font-family: $tipografiaG; 
-        height: 100vh;
+        height: auto;
         font-weight: 400;
-        padding: 0;
         .navbar{
             .navigation{
                 .contenedorLogo{
@@ -133,6 +132,7 @@
     }
     @media screen and (min-width:769px) {
         .Header{
+            padding-bottom: 5vh;
             .navigation{
                 .contenedorLogo{
                     .logo{
@@ -159,6 +159,7 @@
                 margin-top: 135px;
                 margin-left: auto;
                 margin-right: auto;
+                padding-bottom: 3vh;
                 height: 50%;
                 width: 85%;
                 background-color: #ffffff10;

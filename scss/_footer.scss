@@ -4,7 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom ;
-    height: 25vh;
+    height: auto;
     font-family: $tipografiaG;
     font-weight: 400;
     .cajaLogo{
@@ -49,6 +49,7 @@
             font-size: 0.8rem;
             color: rgb(248, 174, 38);
             text-align: center;
+            padding-bottom: 2vh;
         }
     }
 }

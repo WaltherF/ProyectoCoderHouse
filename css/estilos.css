@@ -44,9 +44,8 @@
   background-repeat: no-repeat;
   background-position-y: 47%;
   font-family: "Inter", sans-serif;
-  height: 100vh;
+  height: auto;
   font-weight: 400;
-  padding: 0;
 }
 .bodyIndex .Header .navbar .navigation .contenedorLogo {
   margin-left: 1.6%;
@@ -149,6 +148,9 @@
   }
 }
 @media screen and (min-width: 769px) {
+  .bodyIndex .Header {
+    padding-bottom: 5vh;
+  }
   .bodyIndex .Header .navigation .contenedorLogo .logo:hover {
     animation: shake 1s forwards;
   }
@@ -167,6 +169,7 @@
     margin-top: 135px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 3vh;
     height: 50%;
     width: 85%;
     background-color: rgba(255, 255, 255, 0.062745098);
@@ -268,7 +271,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 25vh;
+  height: auto;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
@@ -313,6 +316,7 @@
   font-size: 0.8rem;
   color: rgb(248, 174, 38);
   text-align: center;
+  padding-bottom: 2vh;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .bodyIndex .footer .cajaLogo {
@@ -408,7 +412,7 @@
   font-size: 3.2rem;
   padding-top: 15vh;
   font-weight: 600;
-  color: black;
+  color: rgb(248, 174, 38);
   font-style: oblique;
 }
 @media screen and (max-width: 768px) {
@@ -623,7 +627,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 25vh;
+  height: auto;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
@@ -668,6 +672,7 @@
   font-size: 0.8rem;
   color: rgb(248, 174, 38);
   text-align: center;
+  padding-bottom: 2vh;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .bodyInfo .footer .cajaLogo {
@@ -763,7 +768,7 @@
   font-size: 3.2rem;
   padding-top: 15vh;
   font-weight: 600;
-  color: black;
+  color: rgb(248, 174, 38);
   font-style: oblique;
 }
 @media screen and (max-width: 768px) {
@@ -987,7 +992,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 25vh;
+  height: auto;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
@@ -1032,6 +1037,7 @@
   font-size: 0.8rem;
   color: rgb(248, 174, 38);
   text-align: center;
+  padding-bottom: 2vh;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .bodyAventura .footer .cajaLogo {
@@ -1127,7 +1133,7 @@
   font-size: 3.2rem;
   padding-top: 15vh;
   font-weight: 600;
-  color: black;
+  color: rgb(248, 174, 38);
   font-style: oblique;
 }
 @media screen and (max-width: 768px) {
@@ -1251,7 +1257,6 @@
 .bodyConciencia .concienciaMain .contInfoIII {
   height: auto;
   margin: auto;
-  padding: 0;
   width: auto;
   background-color: rgba(255, 195, 104, 0.5607843137);
   backdrop-filter: blur(10px);
@@ -1271,6 +1276,7 @@
 .bodyConciencia .concienciaMain .contInfoIII .parrafo {
   height: fit-content;
   width: fit-content;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1356,7 +1362,10 @@
     width: 40vh;
   }
   .bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
+    height: 34vh;
+    width: 45vh;
     background-image: url(../assets/img/concienticemos/510p\ camp.png);
+    background-position-y: center;
     border-radius: 0;
   }
   .bodyConciencia .concienciaMain .contInfoIII .parrafo .title {
@@ -1372,11 +1381,11 @@
   }
   .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
     background-image: url(../assets/img/concienticemos/510\ night-campfire-night.png);
+    background-position-y: bottom;
     border-radius: 0;
   }
-  .bodyConciencia .concienciaMain .secMaps .caja .maps {
+  .bodyConciencia .concienciaMain .secMaps .caja .cajMaps .maps {
     width: 90%;
-    height: 56%;
     min-width: 0px;
   }
 }
@@ -1386,7 +1395,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 25vh;
+  height: auto;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
@@ -1431,6 +1440,7 @@
   font-size: 0.8rem;
   color: rgb(248, 174, 38);
   text-align: center;
+  padding-bottom: 2vh;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .bodyConciencia .footer .cajaLogo {
@@ -1526,7 +1536,7 @@
   font-size: 3.2rem;
   padding-top: 15vh;
   font-weight: 600;
-  color: black;
+  color: rgb(248, 174, 38);
   font-style: oblique;
 }
 @media screen and (max-width: 768px) {
@@ -1669,7 +1679,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 25vh;
+  height: auto;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
@@ -1714,6 +1724,7 @@
   font-size: 0.8rem;
   color: rgb(248, 174, 38);
   text-align: center;
+  padding-bottom: 2vh;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .bodyContac .footer .cajaLogo {
@@ -1809,7 +1820,7 @@
   font-size: 3.2rem;
   padding-top: 15vh;
   font-weight: 600;
-  color: black;
+  color: rgb(248, 174, 38);
   font-style: oblique;
 }
 @media screen and (max-width: 768px) {
@@ -1908,7 +1919,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 25vh;
+  height: auto;
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
@@ -1953,6 +1964,7 @@
   font-size: 0.8rem;
   color: rgb(248, 174, 38);
   text-align: center;
+  padding-bottom: 2vh;
 }
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .bodyError .footer .cajaLogo {
