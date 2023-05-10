@@ -1361,6 +1361,10 @@
     height: 30vh;
     width: 40vh;
   }
+  .bodyConciencia .concienciaMain .contInfoIII {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
   .bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
     margin: auto;
     height: 34vh;
