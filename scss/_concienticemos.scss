@@ -228,5 +228,35 @@
             }
         } 
     }
+    @media screen and (min-width:769px) and (max-width:1399px) {
+        .concienciaMain{
+            .contInfoIII{
+                padding: 0;
+                padding-top: 2vh;
+                padding-bottom: 2vh;
+                .contImgIzq{
+                    margin: auto;
+                    height: 50vh;
+                    width: 50vh;
+                    margin-right: 2.5vh;
+                }
+                .parrafo{
+                    .title{
+                        font-size: 1.6rem;
+                    }
+                    .listUl{
+                        font-size: 1rem;
+                        padding-left: 3vh;
+                        padding-right: 3vh;
+                    }
+                }
+                .contImgDcho{
+                    margin: auto;
+                    height: 50vh;
+                    width: 50vh;
+                }
+            }
+        }
+    }
     @import "_footer";
 }

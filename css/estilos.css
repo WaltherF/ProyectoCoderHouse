@@ -1404,6 +1404,32 @@
     min-width: 0px;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1399px) {
+  .bodyConciencia .concienciaMain .contInfoIII {
+    padding: 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  .bodyConciencia .concienciaMain .contInfoIII .contImgIzq, .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
+    margin: auto;
+    height: 50vh;
+    width: 50vh;
+    margin-right: 2.5vh;
+  }
+  .bodyConciencia .concienciaMain .contInfoIII .parrafo .title {
+    font-size: 1.6rem;
+  }
+  .bodyConciencia .concienciaMain .contInfoIII .parrafo .listUl {
+    font-size: 1rem;
+    padding-left: 3vh;
+    padding-right: 3vh;
+  }
+  .bodyConciencia .concienciaMain .contInfoIII .contImgDcho {
+    margin: auto;
+    height: 50vh;
+    width: 50vh;
+  }
+}
 .bodyConciencia .footer {
   list-style: none;
   background-image: linear-gradient(to top, #001927, #001e2c, #002331, #002836, #002d3b, #003141, #003647, #003a4d, #003e56, #00425f, #004668, #004971);
